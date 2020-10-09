@@ -67,6 +67,31 @@ public class DataAccess {
 		new DataAccess(false);
 	}
 
+	public void open(boolean initializeMode) {
+
+		c = ConfigXML.getInstance();
+
+		System.out.println("Creating DataAccess instance => isDatabaseLocal: " + c.isDatabaseLocal()
+				+ " getDatabBaseOpenMode: " + c.getDataBaseOpenMode());
+
+		String fileName = c.getDbFilename();
+		if (initializeMode)
+			fileName = fileName + ";drop";
+
+		if (c.isDatabaseLocal()) {
+			emf = Persistence.createEntityManagerFactory("objectdb:" + fileName);
+			db = emf.createEntityManager();
+		} else {
+			Map<String, String> properties = new HashMap<String, String>();
+			properties.put("javax.persistence.jdbc.user", c.getUser());
+			properties.put("javax.persistence.jdbc.password", c.getPassword());
+
+			emf = Persistence.createEntityManagerFactory(
+					"objectdb://" + c.getDatabaseNode() + ":" + c.getDatabasePort() + "/" + fileName, properties);
+
+			db = emf.createEntityManager();
+		}
+	}
 	/**
 	 * This is the data access method that initializes the database with some events
 	 * and questions. This method is invoked by the business logic (constructor of

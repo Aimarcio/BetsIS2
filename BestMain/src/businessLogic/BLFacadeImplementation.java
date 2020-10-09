@@ -21,6 +21,20 @@ import exceptions.*;
 @WebService(endpointInterface = "businessLogic.BLFacade")
 public class BLFacadeImplementation implements BLFacade {
 
+	public DataAccess dbManager;
+	
+	
+	public BLFacadeImplementation(DataAccess da) {
+		System.out.println("Creating BLFacadeImplementation instance with DataAccess parameter");
+		ConfigXML c=ConfigXML.getInstance();
+		if (c.getDataBaseOpenMode().equals("initialize")) {
+			da.open(true);
+			da.initializeDB();
+			da.close();
+		}
+		dbManager=da;
+		}
+	
 	public BLFacadeImplementation() {
 		System.out.println("Creating BLFacadeImplementation instance");
 		ConfigXML c = ConfigXML.getInstance();
@@ -50,15 +64,15 @@ public class BLFacadeImplementation implements BLFacade {
 			throws EventFinished, QuestionAlreadyExist {
 
 		// The minimum bed must be greater than 0
-		DataAccess dBManager = new DataAccess();
+		dbManager.open (false);
 		Question qry = null;
 
 		if (new Date().compareTo(event.getEventDate()) > 0)
 			throw new EventFinished(ResourceBundle.getBundle("Etiquetas").getString("ErrorEventHasFinished"));
 
-		qry = dBManager.createQuestion(event, question, betMinimum, pronosticos);
+		qry = dbManager.createQuestion(event, question, betMinimum, pronosticos);
 
-		dBManager.close();
+		dbManager.close();
 
 		return qry;
 	};
@@ -71,7 +85,7 @@ public class BLFacadeImplementation implements BLFacade {
 	 */
 	@WebMethod
 	public List<Event> getEvents(Date date) {
-		DataAccess dbManager = new DataAccess();
+		dbManager.open (false);
 		List<Event> events = dbManager.getEvents(date);
 		dbManager.close();
 		return events;
@@ -86,7 +100,7 @@ public class BLFacadeImplementation implements BLFacade {
 	 */
 	@WebMethod
 	public List<Date> getEventsMonth(Date date) {
-		DataAccess dbManager = new DataAccess();
+		dbManager.open (false);
 		List<Date> dates = dbManager.getEventsMonth(date);
 		dbManager.close();
 		return dates;
@@ -99,16 +113,16 @@ public class BLFacadeImplementation implements BLFacade {
 	 */
 	@WebMethod
 	public void initializeBD() {
-		DataAccess dBManager = new DataAccess();
-		dBManager.initializeDB();
-		dBManager.close();
+		dbManager.open (false);
+		dbManager.initializeDB();
+		dbManager.close();
 	}
 
 	@WebMethod
 	public User login(String username, String password) {
-		DataAccess db = new DataAccess();
-		User u = db.findUser(username);
-		db.close();
+		dbManager.open (false);
+		User u = dbManager.findUser(username);
+		dbManager.close();
 		if (u!=null) {
 			if (!u.getPw().equals(password)) {
 			return null;
@@ -120,45 +134,44 @@ public class BLFacadeImplementation implements BLFacade {
 	@WebMethod
 	public void register(String username, String password, String email) throws UserAlreadyExists {
 		User u = new User(username,password,email,false);
-		DataAccess db = new DataAccess();
-		
-		if(db.findUser(username)!=null) {
-			db.close();
+		dbManager.open (false);		
+		if(dbManager.findUser(username)!=null) {
+			dbManager.close();
 			System.out.println("Error");
 			throw new UserAlreadyExists("username already exists");
 		}	
 		System.out.println("OKE MASTA");
-		db.addUser(u);
-		db.close();
+		dbManager.addUser(u);
+		dbManager.close();
 	}
 	
 	@WebMethod
 	public void registerAdmin(String username, String password, String email) throws UserAlreadyExists {
 		User u = new User(username,password,email,true);
-		DataAccess db = new DataAccess();
+		dbManager.open (false);
 		try{
-			db.addUser(u);
+			dbManager.addUser(u);
 		}catch(Exception UserAlreadyExists) {
-			db.close();
+			dbManager.close();
 			throw new UserAlreadyExists("username already exists");
 		}
-		db.close();
+		dbManager.close();
 	}
 	@WebMethod
 	public Event createEvent(String description, Date dato,Equipo eq1, Equipo eq2)
 			throws EventFinished{
 
 		// The minimum bed must be greater than 0
-		DataAccess dBManager = new DataAccess();
+		dbManager.open (false);
 		Event ev = null;
 
 		if (new Date().compareTo(dato) > 0) {
-			dBManager.close();
+			dbManager.close();
 			throw new EventFinished(ResourceBundle.getBundle("Etiquetas").getString("ErrorEventHasFinished"));
 		}
-		ev = dBManager.createEvent(description, dato,eq1,eq2);
+		ev = dbManager.createEvent(description, dato,eq1,eq2);
 
-		dBManager.close();
+		dbManager.close();
 
 		return ev;
 	};
@@ -166,9 +179,9 @@ public class BLFacadeImplementation implements BLFacade {
 	
 	@WebMethod
     public boolean repeatedEvent(String description, Date fech) {
-        DataAccess db = new DataAccess();
-        Event ev = db.findEvent(description, fech);
-        db.close();
+		dbManager.open (false);
+		Event ev = dbManager.findEvent(description, fech);
+		dbManager.close();
         if (ev ==null) {
             return false;
         }else {
@@ -177,9 +190,9 @@ public class BLFacadeImplementation implements BLFacade {
         }
 	@WebMethod
     public List<User> getAllUsers(){
-		DataAccess db = new DataAccess();
-		List<User> users = db.getAllUsers();
-		db.close();
+		dbManager.open (false);
+		List<User> users = dbManager.getAllUsers();
+		dbManager.close();
 		for (User u : users) u.setPw("");
 		return users;
 	}
@@ -189,10 +202,10 @@ public class BLFacadeImplementation implements BLFacade {
 	@WebMethod
 	public User editUser(User guiUser, String newUsername, String nombre, String ape1, String ape2, String DNI, String email, String tarj) throws UserAlreadyExists, PermisoDenegado{
 		if (guiUser.isAdmin())throw new PermisoDenegado("No puedes editar el perfil de otro administrador");
-		DataAccess db = new DataAccess();
+		dbManager.open (false);
 		User u = null;
 		try {
-			u = db.editUser(guiUser.getUsername(), newUsername, nombre, ape1, ape2, DNI, email, tarj);
+			u = dbManager.editUser(guiUser.getUsername(), newUsername, nombre, ape1, ape2, DNI, email, tarj);
 			u.setPw("");
 		}catch (RollbackException e){
 			throw new UserAlreadyExists("Nombre de usuario en uso");
@@ -200,41 +213,41 @@ public class BLFacadeImplementation implements BLFacade {
 		catch(Exception e){
 			System.out.println("ha pasado algo");
 		} finally {
-			db.close();
+			dbManager.close();
 		}
 		return u;
 	}
 	
 	@WebMethod
 	public User updateOwnUser(User guiUser, String newUsername, String nombre, String ape1, String ape2, String DNI, String email, String tarj){
-		DataAccess db = new DataAccess();
-		User u = db.editUser(guiUser.getUsername(), newUsername, nombre, ape1, ape2, DNI, email, tarj);
-		db.close();
+		dbManager.open (false);
+		User u = dbManager.editUser(guiUser.getUsername(), newUsername, nombre, ape1, ape2, DNI, email, tarj);
+		dbManager.close();
 		return u;
 	}
 	@WebMethod
 	public User getUserInfo(String username) throws ObjectNotFound{
-		DataAccess db = new DataAccess();
-		User u = db.findUser(username);
+		dbManager.open (false);
+		User u = dbManager.findUser(username);
 	
 		u.setPw("");
 		//new User(u.getUsername(), "", u.getEmail(),u.isAdmin());
-		db.close();
+		dbManager.close();
 		return u;
 	}
 	
 	@WebMethod
 	public User sumarPuntos(User user, int p, String tarj) throws UserIncomplete, NoPaymentMethod  {
-		DataAccess db = new DataAccess();
+		dbManager.open (false);
 		try {
-		db.addPoints(user.getUsername(), p, tarj);
+			dbManager.addPoints(user.getUsername(), p, tarj);
 		user.sumarPuntos(p);
 		} catch(UserIncomplete exu) {
 			throw new UserIncomplete("Usuario "+user.getUsername()+" incompleto");
 		} catch(NoPaymentMethod exp) {
 			throw new NoPaymentMethod("No hay metodo de pago");
 		} finally {
-		db.close();
+			dbManager.close();
 		}
 		return user;
 	}
@@ -243,14 +256,14 @@ public class BLFacadeImplementation implements BLFacade {
 	
 	@WebMethod
 	public User restarPuntos(User user, int p) throws InsufficientPoints  {
-		DataAccess db = new DataAccess();
+		dbManager.open (false);
 		try {
-			db.remPoints(user.getUsername(), p);
+			dbManager.remPoints(user.getUsername(), p);
 			user.restarPuntos(p);
 			} catch(InsufficientPoints exi) {
 				throw new InsufficientPoints("Puntos insuficientes");
 			} finally {
-			db.close();
+				dbManager.close();
 			}
 		return user;
 	}
@@ -261,76 +274,76 @@ public class BLFacadeImplementation implements BLFacade {
 		temp.setTime(today);
 		temp.add(Calendar.DATE, 60);
 		Date twoMonthsLater = temp.getTime();
-		DataAccess db = new DataAccess();
-		List<domain.Event> ev = db.getEventsInterval(today,twoMonthsLater);
-		db.close();
+		dbManager.open (false);
+		List<domain.Event> ev = dbManager.getEventsInterval(today,twoMonthsLater);
+		dbManager.close();
 		return ev;
 	}
 	@WebMethod
 	public void apostar(User u, Pronostico p, int cantidad) throws ObjectNotFound,InsufficientPoints, EventFinished{
-		DataAccess db = new DataAccess();
-		db.apostar(u, p, cantidad,new Vector<User>());
-		db.close();
+		dbManager.open (false);
+		dbManager.apostar(u, p, cantidad,new Vector<User>());
+		dbManager.close();
 	}
 	@WebMethod
 	public void borrarPregunta(Question q) {
-	DataAccess db = new DataAccess();
-	db.borrarPregunta(q);
-	db.close();
+		dbManager.open (false);
+		dbManager.borrarPregunta(q);
+		dbManager.close();
 	}
 	
 	@WebMethod
 	public void borrarUsuario(User u) {
-	DataAccess db = new DataAccess();
-	db.borrarUsuario(u);
-	db.close();
+		dbManager.open (false);
+		dbManager.borrarUsuario(u);
+		dbManager.close();
 	}
 	
 	@WebMethod
 	public void editarPregunta(Question q, String pregunta, int betMin) throws QuestionAlreadyExist {
-		DataAccess db = new DataAccess();
-		db.editarPregunta(q, pregunta, betMin);
-		db.close();
+		dbManager.open (false);
+		dbManager.editarPregunta(q, pregunta, betMin);
+		dbManager.close();
 	}
 	
 	@WebMethod
 	public void editarPronostico(Pronostico p, String pronostico, double cuota) throws PronosticoAlreadyExist {
-		DataAccess db = new DataAccess();
-		db.editarPronostico(p, pronostico, cuota);
-		db.close();
+		dbManager.open (false);
+		dbManager.editarPronostico(p, pronostico, cuota);
+		dbManager.close();
 	}
 	@WebMethod
 	public void borrarPronostico(Pronostico p) {
-		DataAccess db = new DataAccess();
-		db.borrarPronostico(p);
-		db.close();
+		dbManager.open (false);
+		dbManager.borrarPronostico(p);
+		dbManager.close();
 	}
 	@WebMethod
 	public Pronostico addPronostico(Question q, String pronostico, double cuota) throws PronosticoAlreadyExist {
-		DataAccess db = new DataAccess();
-		Pronostico p = db.addPronostico(q, pronostico, cuota);
-		db.close();
+		dbManager.open (false);
+		Pronostico p = dbManager.addPronostico(q, pronostico, cuota);
+		dbManager.close();
 		return p;
 	}
 
 	@Override
 	public void CambiarContraseña(User user, String Password) {
-		DataAccess db = new DataAccess();
-		db.CambiarContraseña(user, Password);
-		db.close();
+		dbManager.open (false);
+		dbManager.CambiarContraseña(user, Password);
+		dbManager.close();
 	}
 	@WebMethod
 	public User cancelBet(Apuesta a) throws PreguntaYaResuelta {
-		DataAccess db = new DataAccess();
-		User u =db.cancelBet(a);
-		db.close();
+		dbManager.open (false);
+		User u =dbManager.cancelBet(a);
+		dbManager.close();
 		return u;
 	}
 	@WebMethod
 	public List<User> search100Users(String searchText, int index){
-		DataAccess db = new DataAccess();
-		List<User> lu = db.search100Users(searchText, index);
-		db.close();
+		dbManager.open (false);
+		List<User> lu = dbManager.search100Users(searchText, index);
+		dbManager.close();
 		for(User u: lu) {
 			u.setPw("");
 		}
@@ -338,117 +351,117 @@ public class BLFacadeImplementation implements BLFacade {
 	}
 	@WebMethod
 	public List<User> getFollowing(String username){
-		DataAccess db = new DataAccess();
-		List<User> lf= db.getFollowing(username);
-		db.close();
+		dbManager.open (false);
+		List<User> lf= dbManager.getFollowing(username);
+		dbManager.close();
 		for (User u: lf) u.setPw("");
 		
 		return lf;
 	}
 	@WebMethod
 	public List<Apuesta> getApuestas(String username){
-		DataAccess db = new DataAccess();
-		List<Apuesta> lf= db.getApuestas(username);
-		db.close();
+		dbManager.open (false);
+		List<Apuesta> lf= dbManager.getApuestas(username);
+		dbManager.close();
 		return lf;
 	}
 	@WebMethod
 	public void follow(String follower, String followed) throws ObjectNotFound{
-		DataAccess db = new DataAccess();
-		db.follow(follower, followed);
-		db.close();
+		dbManager.open (false);
+		dbManager.follow(follower, followed);
+		dbManager.close();
 	}
 	@WebMethod
 	public void unfollow(String follower, String followed) throws ObjectNotFound{
-		DataAccess db = new DataAccess();
-		db.unfollow(follower, followed);
-		db.close();
+		dbManager.open (false);
+		dbManager.unfollow(follower, followed);
+		dbManager.close();
 	}
 	@WebMethod
 	public List<Publication> getPublications(String username){
-		DataAccess db = new DataAccess();
-		List<Publication> lp = db.getPublications(username);
-		db.close();
+		dbManager.open (false);
+		List<Publication> lp = dbManager.getPublications(username);
+		dbManager.close();
 		return lp;
 	}
 	@WebMethod
 	public List<Equipo> getAllEquipos(){
-		DataAccess db = new DataAccess();
-		List<Equipo> le = db.getAllEquipos();
-		db.close();
+		dbManager.open (false);
+		List<Equipo> le = dbManager.getAllEquipos();
+		dbManager.close();
 		return le;
 	}
 	
 	@WebMethod
 	public void crearEquipo(String nombre, List<String> jugadores) {
-		DataAccess db = new DataAccess();
-		db.crearEquipo(nombre, jugadores);
-		db.close();
+		dbManager.open (false);
+		dbManager.crearEquipo(nombre, jugadores);
+		dbManager.close();
 		
 	}
 	@WebMethod
 	public Publication publicar(String username, String msg) {
-		DataAccess db = new DataAccess();
-		Publication p = db.publicar(username, msg);
-		db.close();
+		dbManager.open (false);
+		Publication p = dbManager.publicar(username, msg);
+		dbManager.close();
 		return p;
 	}
 	@WebMethod
 	public void updateAjustes(String username, Ajustes ajustes) {
-		DataAccess db = new DataAccess();
-		db.updateAjustes(username, ajustes);
-		db.close();
+		dbManager.open (false);
+		dbManager.updateAjustes(username, ajustes);
+		dbManager.close();
 	}
 	@WebMethod
 	public List<Notification> getNotificaciones(String username) {
-		DataAccess db = new DataAccess();
-		List<Notification> lista = db.getNotificaciones(username);
-		db.close();
+		dbManager.open (false);
+		List<Notification> lista = dbManager.getNotificaciones(username);
+		dbManager.close();
 		return lista;	
 	}
 	@WebMethod
 	public void setRead(int id) {
-		DataAccess db = new DataAccess();
-		db.setRead(id);
-		db.close();
+		dbManager.open (false);
+		dbManager.setRead(id);
+		dbManager.close();
 	}
 	@WebMethod
 	public void notificacionGeneral(String titulo, String mensaje) {
-		DataAccess db = new DataAccess();
-		db.notificacionGeneral(titulo, mensaje);
-		db.close();
+		dbManager.open (false);
+		dbManager.notificacionGeneral(titulo, mensaje);
+		dbManager.close();
 	}
 	@WebMethod
 	public List<domain.Event> getUnresolvedEvents(){
-		DataAccess db = new DataAccess();
-		List<domain.Event> lista = db.nonResolvedEvent();
-		db.close();
+		dbManager.open (false);
+		List<domain.Event> lista = dbManager.nonResolvedEvent();
+		dbManager.close();
 		return lista;
 	}
 	@WebMethod
 	public void resolverPregunta(Pronostico p){
-		DataAccess db = new DataAccess();
-		db.resolverPregunta(p);
-		db.close();
+		dbManager.open (false);
+		dbManager.resolverPregunta(p);
+		dbManager.close();
 	}
 	@WebMethod
 	public List<Equipo> search100Equipos(String searchText, int index){
-		DataAccess db = new DataAccess();
-		List<Equipo> lu = db.search100Equipos(searchText, index);
-		db.close();
+		dbManager.open (false);
+		List<Equipo> lu = dbManager.search100Equipos(searchText, index);
+		dbManager.close();
 		return lu;
 	}
 	@WebMethod
 	public void editarPregunta(Integer id, String titulo,int min ,List<Pronostico> pronosticos) throws QuestionAlreadyExist{
-		DataAccess db = new DataAccess();
-		db.editarPreguntaCompleta(id,titulo,min,pronosticos);
-		db.close();
+		dbManager.open (false);
+		dbManager.editarPreguntaCompleta(id,titulo,min,pronosticos);
+		dbManager.close();
 	}
 	
 	@WebMethod
 	public void updateUsuarioCopiado(User userLogeado,User userCopiado,double ratio) {
-		DataAccess db = new DataAccess();
-		db.updateUsuarioCopiado(userLogeado,userCopiado,ratio);
-		db.close();
+		dbManager.open (false);
+		dbManager.updateUsuarioCopiado(userLogeado,userCopiado,ratio);
+		dbManager.close();
 	}
 }
