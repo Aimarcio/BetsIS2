@@ -1,0 +1,207 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-03-01 15:39:09 #1 store] 
+Database 'D:\basura2.0\Bets\resources\bets.temp' is opened by 13056@DESKTOP-9M02RMD
+
+[2020-03-01 15:39:09 #2 type.registry] 
+New type domain.Question
+
+[2020-03-01 15:39:09 #3 type] 
+Type domain.Question is not enhanced.
+
+[2020-03-01 15:39:09 #4 type.registry] 
+New type domain.Event
+
+[2020-03-01 15:39:09 #5 type] 
+Type domain.Event is not enhanced.
+
+[2020-03-01 15:39:09 #6 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2020-03-01 15:39:09 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-03-01 15:52:15 #1 store] 
+Database 'D:\basura2.0\Bets\resources\bets.temp' is opened by 16416@DESKTOP-9M02RMD
+
+[2020-03-01 15:52:15 #2 type.registry] 
+New type domain.Question
+
+[2020-03-01 15:52:15 #3 type] 
+Type domain.Question is not enhanced.
+
+[2020-03-01 15:52:15 #4 type.registry] 
+New type domain.Event
+
+[2020-03-01 15:52:15 #5 type] 
+Type domain.Event is not enhanced.
+
+[2020-03-01 15:52:15 #6 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2020-03-01 15:52:15 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-03-01 23:32:16 #1 store] 
+Database 'D:\basura2.0\BetsPrueba\resources\bets.temp' is opened by 8568@DESKTOP-9M02RMD
+
+[2020-03-01 23:32:16 #2 type.registry] 
+New type domain.Question
+
+[2020-03-01 23:32:16 #3 type] 
+Type domain.Question is not enhanced.
+
+[2020-03-01 23:32:16 #4 type.registry] 
+New type domain.Event
+
+[2020-03-01 23:32:16 #5 type] 
+Type domain.Event is not enhanced.
+
+[2020-03-01 23:32:16 #6 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2020-03-01 23:32:16 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-03-01 23:35:26 #1 store] 
+Database 'D:\basura2.0\BetsPrueba\resources\bets.temp' is opened by 10788@DESKTOP-9M02RMD
+
+[2020-03-01 23:35:26 #2 type.registry] 
+New type domain.Question
+
+[2020-03-01 23:35:26 #3 type] 
+Type domain.Question is not enhanced.
+
+[2020-03-01 23:35:26 #4 type.registry] 
+New type domain.Event
+
+[2020-03-01 23:35:26 #5 type] 
+Type domain.Event is not enhanced.
+
+[2020-03-01 23:35:26 #6 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2020-03-01 23:35:26 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-03-01 23:40:24 #1 store] 
+Database 'D:\basura2.0\BetsPrueba\resources\bets.temp' is opened by 15868@DESKTOP-9M02RMD
+
+[2020-03-01 23:40:24 #2 type.registry] 
+New type domain.Question
+
+[2020-03-01 23:40:24 #3 type] 
+Type domain.Question is not enhanced.
+
+[2020-03-01 23:40:24 #4 type.registry] 
+New type domain.Event
+
+[2020-03-01 23:40:24 #5 type] 
+Type domain.Event is not enhanced.
+
+[2020-03-01 23:40:24 #6 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2020-03-01 23:40:24 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-03-01 23:41:11 #1 store] 
+Database 'D:\basura2.0\BetsPrueba\resources\bets.temp' is opened by 4748@DESKTOP-9M02RMD
+
+[2020-03-01 23:41:12 #2 type.registry] 
+New type domain.Question
+
+[2020-03-01 23:41:12 #3 type] 
+Type domain.Question is not enhanced.
+
+[2020-03-01 23:41:12 #4 type.registry] 
+New type domain.Event
+
+[2020-03-01 23:41:12 #5 type] 
+Type domain.Event is not enhanced.
+
+[2020-03-01 23:41:12 #6 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2020-03-01 23:41:12 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-03-01 23:44:53 #1 store] 
+Database 'D:\basura2.0\BetsPrueba\resources\bets.temp' is opened by 9672@DESKTOP-9M02RMD
+
+[2020-03-01 23:44:53 #2 type.registry] 
+New type domain.Question
+
+[2020-03-01 23:44:53 #3 type] 
+Type domain.Question is not enhanced.
+
+[2020-03-01 23:44:53 #4 type.registry] 
+New type domain.Event
+
+[2020-03-01 23:44:53 #5 type] 
+Type domain.Event is not enhanced.
+
+[2020-03-01 23:44:53 #6 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2020-03-01 23:44:53 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-03-01 23:44:57 #1 store] 
+Database 'D:\basura2.0\BetsPrueba\resources\bets.temp' is opened by 17156@DESKTOP-9M02RMD
+
+[2020-03-01 23:44:57 #2 type.registry] 
+New type domain.Question
+
+[2020-03-01 23:44:57 #3 type] 
+Type domain.Question is not enhanced.
+
+[2020-03-01 23:44:57 #4 type.registry] 
+New type domain.Event
+
+[2020-03-01 23:44:57 #5 type] 
+Type domain.Event is not enhanced.
+
+[2020-03-01 23:44:57 #6 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2020-03-01 23:44:57 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-03-01 23:51:23 #1 store] 
+Database 'D:\basura2.0\BetsPrueba\resources\bets.temp' is opened by 10392@DESKTOP-9M02RMD
+
+[2020-03-01 23:51:23 #2 type.registry] 
+New type domain.Question
+
+[2020-03-01 23:51:23 #3 type] 
+Type domain.Question is not enhanced.
+
+[2020-03-01 23:51:23 #4 type.registry] 
+New type domain.Event
+
+[2020-03-01 23:51:23 #5 type] 
+Type domain.Event is not enhanced.
+
+[2020-03-01 23:51:23 #6 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2020-03-01 23:51:23 #7 type.registry] 
+New type java.util.Vector<java.lang.Object>
+

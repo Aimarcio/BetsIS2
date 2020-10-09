@@ -1,0 +1,141 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-03-19 00:06:52 #1 store] 
+Database 'C:\Users\enely\git\GitNoFunciona\BestMain\resources\bets.temp' is opened by 8840@DESKTOP-3PB38CT
+
+[2020-03-19 00:06:52 #2 type.registry] 
+New type domain.Question
+
+[2020-03-19 00:06:52 #3 type] 
+Type domain.Question is not enhanced.
+
+[2020-03-19 00:06:52 #4 type.registry] 
+New type domain.Event
+
+[2020-03-19 00:06:52 #5 type.registry] 
+New type domain.Pronostico
+
+[2020-03-19 00:06:52 #6 type] 
+Type domain.Event is not enhanced.
+
+[2020-03-19 00:06:52 #7 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2020-03-19 00:06:52 #8 type] 
+Type domain.Pronostico is not enhanced.
+
+[2020-03-19 00:06:52 #9 type.registry] 
+New type domain.User
+
+[2020-03-19 00:06:52 #10 type] 
+Type domain.User is not enhanced.
+
+[2020-03-19 00:06:52 #11 type.registry] 
+New type domain.Apuesta
+
+[2020-03-19 00:06:52 #12 type.registry] 
+New type java.util.ArrayList<domain.Apuesta>
+
+[2020-03-19 00:06:52 #13 type] 
+Type domain.Apuesta is not enhanced.
+
+[2020-03-19 00:06:52 #14 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2020-03-19 00:06:52 #15 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-03-19 00:09:02 #1 store] 
+Database 'C:\Users\enely\git\GitNoFunciona\BestMain\resources\bets.temp' is opened by 11644@DESKTOP-3PB38CT
+
+[2020-03-19 00:09:02 #2 type.registry] 
+New type domain.Question
+
+[2020-03-19 00:09:02 #3 type] 
+Type domain.Question is not enhanced.
+
+[2020-03-19 00:09:02 #4 type.registry] 
+New type domain.Event
+
+[2020-03-19 00:09:02 #5 type.registry] 
+New type domain.Pronostico
+
+[2020-03-19 00:09:02 #6 type] 
+Type domain.Event is not enhanced.
+
+[2020-03-19 00:09:02 #7 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2020-03-19 00:09:02 #8 type] 
+Type domain.Pronostico is not enhanced.
+
+[2020-03-19 00:09:02 #9 type.registry] 
+New type domain.User
+
+[2020-03-19 00:09:02 #10 type] 
+Type domain.User is not enhanced.
+
+[2020-03-19 00:09:02 #11 type.registry] 
+New type domain.Apuesta
+
+[2020-03-19 00:09:02 #12 type.registry] 
+New type java.util.ArrayList<domain.Apuesta>
+
+[2020-03-19 00:09:02 #13 type] 
+Type domain.Apuesta is not enhanced.
+
+[2020-03-19 00:09:02 #14 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2020-03-19 00:09:02 #15 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-03-19 01:38:02 #1 store] 
+Database 'C:\Users\enely\git\GitNoFunciona\BestMain\resources\bets.temp' is opened by 2988@DESKTOP-3PB38CT
+
+[2020-03-19 01:38:02 #2 type.registry] 
+New type domain.Question
+
+[2020-03-19 01:38:02 #3 type] 
+Type domain.Question is not enhanced.
+
+[2020-03-19 01:38:02 #4 type.registry] 
+New type domain.Event
+
+[2020-03-19 01:38:02 #5 type.registry] 
+New type domain.Pronostico
+
+[2020-03-19 01:38:02 #6 type] 
+Type domain.Event is not enhanced.
+
+[2020-03-19 01:38:03 #7 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2020-03-19 01:38:03 #8 type] 
+Type domain.Pronostico is not enhanced.
+
+[2020-03-19 01:38:03 #9 type.registry] 
+New type domain.User
+
+[2020-03-19 01:38:03 #10 type] 
+Type domain.User is not enhanced.
+
+[2020-03-19 01:38:03 #11 type.registry] 
+New type domain.Apuesta
+
+[2020-03-19 01:38:03 #12 type.registry] 
+New type java.util.ArrayList<domain.Apuesta>
+
+[2020-03-19 01:38:03 #13 type] 
+Type domain.Apuesta is not enhanced.
+
+[2020-03-19 01:38:03 #14 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2020-03-19 01:38:03 #15 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+

@@ -1,0 +1,356 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-04-04 20:44:52 #1 store] 
+Database 'C:\Users\aimar\git\GitNoFunciona\BestMain\resources\bets.temp' is opened by 1832@DESKTOP-AQBPSJR
+
+[2020-04-04 20:44:52 #2 type.registry] 
+New type domain.Question
+
+[2020-04-04 20:44:52 #3 type] 
+Type domain.Question is not enhanced.
+
+[2020-04-04 20:44:52 #4 type.registry] 
+New type domain.Event
+
+[2020-04-04 20:44:52 #5 type.registry] 
+New type domain.Pronostico
+
+[2020-04-04 20:44:52 #6 type] 
+Type domain.Event is not enhanced.
+
+[2020-04-04 20:44:52 #7 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2020-04-04 20:44:52 #8 type] 
+Type domain.Pronostico is not enhanced.
+
+[2020-04-04 20:44:52 #9 type.registry] 
+New type domain.Apuesta
+
+[2020-04-04 20:44:52 #10 type] 
+Type domain.Apuesta is not enhanced.
+
+[2020-04-04 20:44:52 #11 type.registry] 
+New type domain.User
+
+[2020-04-04 20:44:52 #12 type] 
+Type domain.User is not enhanced.
+
+[2020-04-04 20:44:52 #13 type.registry] 
+New type java.util.ArrayList<domain.Apuesta>
+
+[2020-04-04 20:44:52 #14 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2020-04-04 20:44:52 #15 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2020-04-04 20:44:52 #16 type.registry] 
+New type java.util.Vector<domain.Pronostico>
+
+[2020-04-04 20:44:52 #17 type.registry] 
+New type java.util.Vector<domain.Apuesta>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-04-04 20:48:32 #1 store] 
+Database 'C:\Users\aimar\git\GitNoFunciona\BestMain\resources\bets.temp' has been recovered (tr. 1-17)
+
+[2020-04-04 20:48:32 #2 store] 
+Database 'C:\Users\aimar\git\GitNoFunciona\BestMain\resources\bets.temp' is opened by 7556@DESKTOP-AQBPSJR
+
+[2020-04-04 20:48:32 #3 type] 
+Type domain.Question is not enhanced.
+
+[2020-04-04 20:48:32 #4 type] 
+Type domain.Event is not enhanced.
+
+[2020-04-04 20:48:32 #5 type] 
+Type domain.Pronostico is not enhanced.
+
+[2020-04-04 20:48:32 #6 type] 
+Type domain.Apuesta is not enhanced.
+
+[2020-04-04 20:48:32 #7 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-04-04 20:52:04 #1 store] 
+Database 'C:\Users\aimar\git\GitNoFunciona\BestMain\resources\bets.temp' is opened by 14648@DESKTOP-AQBPSJR
+
+[2020-04-04 20:52:04 #2 type] 
+Type domain.Question is not enhanced.
+
+[2020-04-04 20:52:04 #3 type] 
+Type domain.Event is not enhanced.
+
+[2020-04-04 20:52:04 #4 type] 
+Type domain.Pronostico is not enhanced.
+
+[2020-04-04 20:52:04 #5 type] 
+Type domain.Apuesta is not enhanced.
+
+[2020-04-04 20:52:04 #6 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-04-04 20:53:16 #1 store] 
+Database 'C:\Users\aimar\git\GitNoFunciona\BestMain\resources\bets.temp' is opened by 13992@DESKTOP-AQBPSJR
+
+[2020-04-04 20:53:16 #2 type] 
+Type domain.Question is not enhanced.
+
+[2020-04-04 20:53:16 #3 type] 
+Type domain.Event is not enhanced.
+
+[2020-04-04 20:53:16 #4 type] 
+Type domain.Pronostico is not enhanced.
+
+[2020-04-04 20:53:16 #5 type] 
+Type domain.Apuesta is not enhanced.
+
+[2020-04-04 20:53:16 #6 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-04-04 20:54:54 #1 store] 
+Database 'C:\Users\aimar\git\GitNoFunciona\BestMain\resources\bets.temp' is opened by 14772@DESKTOP-AQBPSJR
+
+[2020-04-04 20:54:54 #2 type] 
+Type domain.Question is not enhanced.
+
+[2020-04-04 20:54:54 #3 type] 
+Type domain.Event is not enhanced.
+
+[2020-04-04 20:54:54 #4 type] 
+Type domain.Pronostico is not enhanced.
+
+[2020-04-04 20:54:54 #5 type] 
+Type domain.Apuesta is not enhanced.
+
+[2020-04-04 20:54:54 #6 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-04-04 20:56:14 #1 store] 
+Database 'C:\Users\aimar\git\GitNoFunciona\BestMain\resources\bets.temp' is opened by 840@DESKTOP-AQBPSJR
+
+[2020-04-04 20:56:14 #2 type] 
+Type domain.Question is not enhanced.
+
+[2020-04-04 20:56:14 #3 type] 
+Type domain.Event is not enhanced.
+
+[2020-04-04 20:56:14 #4 type] 
+Type domain.Pronostico is not enhanced.
+
+[2020-04-04 20:56:14 #5 type] 
+Type domain.Apuesta is not enhanced.
+
+[2020-04-04 20:56:14 #6 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-04-04 20:58:39 #1 store] 
+Database 'C:\Users\aimar\git\GitNoFunciona\BestMain\resources\bets.temp' is opened by 11172@DESKTOP-AQBPSJR
+
+[2020-04-04 20:58:39 #2 type] 
+Type domain.Question is not enhanced.
+
+[2020-04-04 20:58:39 #3 type] 
+Type domain.Event is not enhanced.
+
+[2020-04-04 20:58:39 #4 type] 
+Type domain.Pronostico is not enhanced.
+
+[2020-04-04 20:58:39 #5 type] 
+Type domain.Apuesta is not enhanced.
+
+[2020-04-04 20:58:39 #6 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-04-04 21:00:02 #1 store] 
+Database 'C:\Users\aimar\git\GitNoFunciona\BestMain\resources\bets.temp' is opened by 3604@DESKTOP-AQBPSJR
+
+[2020-04-04 21:00:02 #2 type] 
+Type domain.Question is not enhanced.
+
+[2020-04-04 21:00:02 #3 type] 
+Type domain.Event is not enhanced.
+
+[2020-04-04 21:00:02 #4 type] 
+Type domain.Pronostico is not enhanced.
+
+[2020-04-04 21:00:02 #5 type] 
+Type domain.Apuesta is not enhanced.
+
+[2020-04-04 21:00:02 #6 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-04-04 21:03:07 #1 store] 
+Database 'C:\Users\aimar\git\GitNoFunciona\BestMain\resources\bets.temp' is opened by 5212@DESKTOP-AQBPSJR
+
+[2020-04-04 21:03:07 #2 type] 
+Type domain.Question is not enhanced.
+
+[2020-04-04 21:03:07 #3 type] 
+Type domain.Event is not enhanced.
+
+[2020-04-04 21:03:07 #4 type] 
+Type domain.Pronostico is not enhanced.
+
+[2020-04-04 21:03:07 #5 type] 
+Type domain.Apuesta is not enhanced.
+
+[2020-04-04 21:03:07 #6 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-04-04 21:04:01 #1 store] 
+Database 'C:\Users\aimar\git\GitNoFunciona\BestMain\resources\bets.temp' is opened by 9244@DESKTOP-AQBPSJR
+
+[2020-04-04 21:04:01 #2 type] 
+Type domain.Question is not enhanced.
+
+[2020-04-04 21:04:01 #3 type] 
+Type domain.Event is not enhanced.
+
+[2020-04-04 21:04:01 #4 type] 
+Type domain.Pronostico is not enhanced.
+
+[2020-04-04 21:04:01 #5 type] 
+Type domain.Apuesta is not enhanced.
+
+[2020-04-04 21:04:01 #6 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-04-04 21:04:48 #1 store] 
+Database 'C:\Users\aimar\git\GitNoFunciona\BestMain\resources\bets.temp' is opened by 440@DESKTOP-AQBPSJR
+
+[2020-04-04 21:04:48 #2 type] 
+Type domain.Question is not enhanced.
+
+[2020-04-04 21:04:48 #3 type] 
+Type domain.Event is not enhanced.
+
+[2020-04-04 21:04:48 #4 type] 
+Type domain.Pronostico is not enhanced.
+
+[2020-04-04 21:04:48 #5 type] 
+Type domain.Apuesta is not enhanced.
+
+[2020-04-04 21:04:48 #6 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-04-04 21:05:37 #1 store] 
+Database 'C:\Users\aimar\git\GitNoFunciona\BestMain\resources\bets.temp' is opened by 3808@DESKTOP-AQBPSJR
+
+[2020-04-04 21:05:37 #2 type] 
+Type domain.Question is not enhanced.
+
+[2020-04-04 21:05:37 #3 type] 
+Type domain.Event is not enhanced.
+
+[2020-04-04 21:05:37 #4 type] 
+Type domain.Pronostico is not enhanced.
+
+[2020-04-04 21:05:37 #5 type] 
+Type domain.Apuesta is not enhanced.
+
+[2020-04-04 21:05:37 #6 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-04-04 21:07:10 #1 store] 
+Database 'C:\Users\aimar\git\GitNoFunciona\BestMain\resources\bets.temp' is opened by 3600@DESKTOP-AQBPSJR
+
+[2020-04-04 21:07:10 #2 type] 
+Type domain.Question is not enhanced.
+
+[2020-04-04 21:07:10 #3 type] 
+Type domain.Event is not enhanced.
+
+[2020-04-04 21:07:10 #4 type] 
+Type domain.Pronostico is not enhanced.
+
+[2020-04-04 21:07:10 #5 type] 
+Type domain.Apuesta is not enhanced.
+
+[2020-04-04 21:07:10 #6 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-04-04 21:08:58 #1 store] 
+Database 'C:\Users\aimar\git\GitNoFunciona\BestMain\resources\bets.temp' is opened by 15232@DESKTOP-AQBPSJR
+
+[2020-04-04 21:08:58 #2 type] 
+Type domain.Question is not enhanced.
+
+[2020-04-04 21:08:58 #3 type] 
+Type domain.Event is not enhanced.
+
+[2020-04-04 21:08:58 #4 type] 
+Type domain.Pronostico is not enhanced.
+
+[2020-04-04 21:08:58 #5 type] 
+Type domain.Apuesta is not enhanced.
+
+[2020-04-04 21:08:58 #6 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-04-04 21:12:51 #1 store] 
+Database 'C:\Users\aimar\git\GitNoFunciona\BestMain\resources\bets.temp' is opened by 7296@DESKTOP-AQBPSJR
+
+[2020-04-04 21:12:51 #2 type] 
+Type domain.Question is not enhanced.
+
+[2020-04-04 21:12:51 #3 type] 
+Type domain.Event is not enhanced.
+
+[2020-04-04 21:12:51 #4 type] 
+Type domain.Pronostico is not enhanced.
+
+[2020-04-04 21:12:51 #5 type] 
+Type domain.Apuesta is not enhanced.
+
+[2020-04-04 21:12:51 #6 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-04-04 21:14:52 #1 store] 
+Database 'C:\Users\aimar\git\GitNoFunciona\BestMain\resources\bets.temp' is opened by 8156@DESKTOP-AQBPSJR
+
+[2020-04-04 21:14:52 #2 type] 
+Type domain.Question is not enhanced.
+
+[2020-04-04 21:14:52 #3 type] 
+Type domain.Event is not enhanced.
+
+[2020-04-04 21:14:52 #4 type] 
+Type domain.Pronostico is not enhanced.
+
+[2020-04-04 21:14:52 #5 type] 
+Type domain.Apuesta is not enhanced.
+
+[2020-04-04 21:14:52 #6 type] 
+Type domain.User is not enhanced.
+

@@ -1,0 +1,20 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-03-23 20:11:11 #1 store] 
+Database 'C:\Users\enely\git\GitNoFunciona\BestMain\resources\bets.temp' is opened by 15596@DESKTOP-3PB38CT
+
+[2020-03-23 20:11:11 #2 type] 
+Type domain.Question is not enhanced.
+
+[2020-03-23 20:11:11 #3 type] 
+Type domain.Event is not enhanced.
+
+[2020-03-23 20:11:11 #4 type] 
+Type domain.Pronostico is not enhanced.
+
+[2020-03-23 20:11:11 #5 type] 
+Type domain.User is not enhanced.
+
+[2020-03-23 20:11:11 #6 type] 
+Type domain.Apuesta is not enhanced.
+
