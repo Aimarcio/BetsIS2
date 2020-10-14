@@ -1,6 +1,6 @@
 addons:
  sonarcloud:
- organization: “Aimarcio”
+ organization: “aimarciosco”
  token: “58260ebe39c05cf134efe6ebf261bf77487b1dda”
 script:
  # the following command line builds the project, runs the tests with
