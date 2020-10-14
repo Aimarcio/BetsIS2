@@ -1,0 +1,72 @@
+
+TbusinessLogic.BLFacadeImplementation#getApuestas(Ljava/lang/String;)Ljava/util/List;X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.javaê ê(!"startingBlock*­
+startingBlockX
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.javaê! ê(2¨
+¥
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.javaé é(
+%6"
+__annotate*
+javax.jws.WebMethod*
+
+usernamejava.lang.String‘
+Ž
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.javaê) ê(1
+usernamejava.lang.String"__annotation*
+
+%6*
+1*¦
+1X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.javaë ë(¹
+¶
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.javaë ë(
+%0dataAccess.DataAccess"__id*7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager¹¶
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.javaë ë(
+
+%1void"dataAccess.DataAccess#open(Z)V*
+
+%0dataAccess.DataAccess*
+""2open(Z)¹
+¶
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.javaì ì(
+%2dataAccess.DataAccess"__id*7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManagerš—
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.javaì ì(3
+%3java.util.List"EdataAccess.DataAccess#getApuestas(Ljava/lang/String;)Ljava/util/List;*
+
+%2dataAccess.DataAccess*
+
+usernamejava.lang.String2getApuestas(Ljava/lang/String;)‘
+Ž
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.javaì ì(4
+lfjava.util.List"__id*
+
+%3java.util.List¹
+¶
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.javaí í(
+%4dataAccess.DataAccess"__id*7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager±®
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.javaí í(
+
+%5void"dataAccess.DataAccess#close()V*
+
+%4dataAccess.DataAccess2close()"r
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.javaî î(
+
+lfjava.util.List:
+usernamejava.lang.StringB(&
+$businessLogic.BLFacadeImplementation

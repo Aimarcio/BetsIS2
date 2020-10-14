@@ -1,0 +1,72 @@
+
+ZbusinessLogic.BLFacadeImplementation#getNotificaciones(Ljava/lang/String;)Ljava/util/List;X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.java   (,"startingBlock*­
+startingBlockX
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.java ,  (=¨
+¥
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.javaŸ Ÿ(
+%6"
+__annotate*
+javax.jws.WebMethod*
+
+usernamejava.lang.String‘
+Ž
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.java 4  (<
+usernamejava.lang.String"__annotation*
+
+%6*
+1*¸
+1X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.java¡ ¡(¹
+¶
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.java¡ ¡(
+%0dataAccess.DataAccess"__id*7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager¹¶
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.java¡ ¡(
+
+%1void"dataAccess.DataAccess#open(Z)V*
+
+%0dataAccess.DataAccess*
+""2open(Z)¹
+¶
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.java¢ ¢(&
+%2dataAccess.DataAccess"__id*7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager¦£
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.java¢ ¢(B
+%3java.util.List"KdataAccess.DataAccess#getNotificaciones(Ljava/lang/String;)Ljava/util/List;*
+
+%2dataAccess.DataAccess*
+
+usernamejava.lang.String2%getNotificaciones(Ljava/lang/String;)”
+‘
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.java¢ ¢(C
+listajava.util.List"__id*
+
+%3java.util.List¹
+¶
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.java£ £(
+%4dataAccess.DataAccess"__id*7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager±®
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.java£ £(
+
+%5void"dataAccess.DataAccess#close()V*
+
+%4dataAccess.DataAccess2close()"u
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.java¤ ¤(
+
+listajava.util.List:
+usernamejava.lang.StringB(&
+$businessLogic.BLFacadeImplementation

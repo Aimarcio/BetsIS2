@@ -1,0 +1,125 @@
+
+ΩdataAccess.DataAccess#editUser(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ldomain/User;I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaÑ Ñ("1*µ
+1I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaÖ Ö(û
+õ
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaÖ Ö(%
+%0javax.persistence.EntityManager"__id*!*
+dataAccess.DataAccess"
+dbΩ∫
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaÖ Ö(2
+%1domain.User"[javax.persistence.EntityManager#find(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;*'
+%
+%0javax.persistence.EntityManager*
+""*!
+
+oldUsernamejava.lang.String2)find(Ljava/lang/Class;Ljava/lang/Object;)Ä
+~
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaÖ Ö(3
+oldUserdomain.User"__id*
+
+%1domain.Userû
+õ
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaÜ Ü(%
+%2javax.persistence.EntityManager"__id*!*
+dataAccess.DataAccess"
+dbãà
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaÜ Ü()
+%3#javax.persistence.EntityTransaction"Ujavax.persistence.EntityManager#getTransaction()Ljavax/persistence/EntityTransaction;*'
+%
+%2javax.persistence.EntityManager2getTransaction()æª
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaÜ Ü(
+
+%4void",javax.persistence.EntityTransaction#begin()V*+
+)
+%3#javax.persistence.EntityTransaction2begin()ÙÒ
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaá á(*
+
+%5void"3domain.User#setUserVisibleName(Ljava/lang/String;)V*
+
+oldUserdomain.User*!
+
+newUsernamejava.lang.String2&setUserVisibleName(Ljava/lang/String;)›⁄
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaà à(
+
+%6void"*domain.User#setNombre(Ljava/lang/String;)V*
+
+oldUserdomain.User*
+
+nombrejava.lang.String2setNombre(Ljava/lang/String;)·ﬁ
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaâ â(
+
+%7void"-domain.User#setApellido1(Ljava/lang/String;)V*
+
+oldUserdomain.User*
+
+ape1java.lang.String2 setApellido1(Ljava/lang/String;)·ﬁ
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaä ä(
+
+%8void"-domain.User#setApellido2(Ljava/lang/String;)V*
+
+oldUserdomain.User*
+
+ape2java.lang.String2 setApellido2(Ljava/lang/String;)‘—
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaã ã(
+
+%9void"'domain.User#setDNI(Ljava/lang/String;)V*
+
+oldUserdomain.User*
+
+DNIjava.lang.String2setDNI(Ljava/lang/String;)€ÿ
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaå å(
+%10void")domain.User#setEmail(Ljava/lang/String;)V*
+
+oldUserdomain.User*
+
+emailjava.lang.String2setEmail(Ljava/lang/String;)ﬁ€
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaç ç(
+%11void"+domain.User#setTarjeta(Ljava/lang/String;)V*
+
+oldUserdomain.User*
+
+tarjjava.lang.String2setTarjeta(Ljava/lang/String;)ü
+ú
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaé é(&
+%12javax.persistence.EntityManager"__id*!*
+dataAccess.DataAccess"
+dbçä
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaé é(*
+%13#javax.persistence.EntityTransaction"Ujavax.persistence.EntityManager#getTransaction()Ljavax/persistence/EntityTransaction;*(
+&
+%12javax.persistence.EntityManager2getTransaction()¬ø
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaé é(
+%14void"-javax.persistence.EntityTransaction#commit()V*,
+*
+%13#javax.persistence.EntityTransaction2commit()"e
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaè è(
+
+oldUserdomain.User:
+oldUsernamejava.lang.String:
+newUsernamejava.lang.String:
+nombrejava.lang.String:
+ape1java.lang.String:
+ape2java.lang.String:
+DNIjava.lang.String:
+emailjava.lang.String:
+tarjjava.lang.StringB
+dataAccess.DataAccess

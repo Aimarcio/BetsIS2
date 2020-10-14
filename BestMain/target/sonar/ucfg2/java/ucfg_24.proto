@@ -1,0 +1,23 @@
+
+.gui.Header#getTextBusqueda()Ljava/lang/String;>
+2C:/Users/USER/git/IS2/BestMain/src/gui/Header.javaÂ Â(%"1*ë
+1>
+2C:/Users/USER/git/IS2/BestMain/src/gui/Header.javaÃ	 Ã(ƒ
+€
+>
+2C:/Users/USER/git/IS2/BestMain/src/gui/Header.javaÃ	 Ã(
+%0javax.swing.JTextField"__id**
+
+gui.Header"
+searchÃÀ
+>
+2C:/Users/USER/git/IS2/BestMain/src/gui/Header.javaÃ	 Ã(
+%1java.lang.String";javax.swing.text.JTextComponent#getText()Ljava/lang/String;*
+
+%0javax.swing.JTextField2	getText()"Z
+>
+2C:/Users/USER/git/IS2/BestMain/src/gui/Header.javaÃ Ã(
+
+%1java.lang.StringB"
+
+gui.Header

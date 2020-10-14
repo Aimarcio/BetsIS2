@@ -1,0 +1,51 @@
+
+domain.User#hashCode()I=
+3C:/Users/USER/git/IS2/BestMain/src/domain/User.java7 7("4*¼
+2=
+3C:/Users/USER/git/IS2/BestMain/src/domain/User.java:6 :(>~
+|
+=
+3C:/Users/USER/git/IS2/BestMain/src/domain/User.java:6 :(>
+%4java.lang.String"__id**
+domain.User"
+
+username‘Ž
+=
+3C:/Users/USER/git/IS2/BestMain/src/domain/User.java:6 :(I	
+%3int"java.lang.String#hashCode()I*
+
+%4java.lang.String2
+hashCode()_
+]
+=
+3C:/Users/USER/git/IS2/BestMain/src/domain/User.java:6 :(I	
+%1int"__id*
+	
+%3int*
+1*¨
+3=
+3C:/Users/USER/git/IS2/BestMain/src/domain/User.java:2 :(3_
+]
+=
+3C:/Users/USER/git/IS2/BestMain/src/domain/User.java:2 :(3	
+%1int"__id*
+	
+%2int*
+1*Ê
+4=
+3C:/Users/USER/git/IS2/BestMain/src/domain/User.java8 8(~
+|
+=
+3C:/Users/USER/git/IS2/BestMain/src/domain/User.java: :(&
+%0java.lang.String"__id**
+domain.User"
+
+username*
+2
+3*‹
+1=
+3C:/Users/USER/git/IS2/BestMain/src/domain/User.java: :(J"G
+=
+3C:/Users/USER/git/IS2/BestMain/src/domain/User.java; ;(
+""B
+domain.User

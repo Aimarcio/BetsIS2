@@ -1,0 +1,196 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-10-14 11:15:18 #1 store] 
+Database 'C:\Users\USER\git\IS2\BestMain\resources\bets.temp' is opened by 3648@DESKTOP-1O96UFS
+
+[2020-10-14 11:15:18 #2 type.registry] 
+New type domain.Equipo
+
+[2020-10-14 11:15:18 #3 type] 
+Type domain.Equipo is not enhanced.
+
+[2020-10-14 11:15:18 #4 type.registry] 
+New type domain.Event
+
+[2020-10-14 11:15:18 #5 type] 
+Type domain.Event is not enhanced.
+
+[2020-10-14 11:15:18 #6 type.registry] 
+New type domain.Question
+
+[2020-10-14 11:15:18 #7 type] 
+Type domain.Question is not enhanced.
+
+[2020-10-14 11:15:18 #8 type.registry] 
+New type domain.Pronostico
+
+[2020-10-14 11:15:18 #9 type] 
+Type domain.Pronostico is not enhanced.
+
+[2020-10-14 11:15:18 #10 type.registry] 
+New type domain.Apuesta
+
+[2020-10-14 11:15:18 #11 type] 
+Type domain.Apuesta is not enhanced.
+
+[2020-10-14 11:15:18 #12 type.registry] 
+New type domain.User
+
+[2020-10-14 11:15:18 #13 type] 
+Type domain.User is not enhanced.
+
+[2020-10-14 11:15:18 #14 type.registry] 
+New type domain.Ajustes
+
+[2020-10-14 11:15:18 #15 type.registry] 
+New type domain.Notification
+
+[2020-10-14 11:15:18 #16 type.registry] 
+New type domain.Publication
+
+[2020-10-14 11:15:18 #17 type.registry] 
+New type domain.Copia
+
+[2020-10-14 11:15:18 #18 type] 
+Type domain.Ajustes is not enhanced.
+
+[2020-10-14 11:15:18 #19 type] 
+Type domain.Notification is not enhanced.
+
+[2020-10-14 11:15:18 #20 type] 
+Type domain.Publication is not enhanced.
+
+[2020-10-14 11:15:18 #21 type] 
+Type domain.Copia is not enhanced.
+
+[2020-10-14 11:15:18 #22 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2020-10-14 11:15:18 #23 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2020-10-14 11:15:18 #24 type.registry] 
+New type java.util.ArrayList<java.lang.String>
+
+[2020-10-14 11:15:18 #25 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2020-10-14 11:15:18 #26 type.registry] 
+New type java.util.Vector<domain.Pronostico>
+
+[2020-10-14 11:15:18 #27 type.registry] 
+New type java.util.Vector<domain.Copia>
+
+[2020-10-14 11:15:18 #28 type.registry] 
+New type java.util.ArrayList<domain.Apuesta>
+
+[2020-10-14 11:15:18 #29 type.registry] 
+New type java.util.ArrayList<domain.Publication>
+
+[2020-10-14 11:15:18 #30 type.registry] 
+New type java.util.ArrayList<domain.Notification>
+
+[2020-10-14 11:15:18 #31 type.registry] 
+New type java.util.ArrayList<domain.User>
+
+[2020-10-14 11:15:18 #32 type.registry] 
+New type java.util.Vector<domain.Apuesta>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-10-14 12:00:06 #1 store] 
+Database 'C:\Users\USER\git\IS2\BestMain\resources\bets.temp' is opened by 1628@DESKTOP-1O96UFS
+
+[2020-10-14 12:00:07 #2 type.registry] 
+New type domain.Equipo
+
+[2020-10-14 12:00:07 #3 type] 
+Type domain.Equipo is not enhanced.
+
+[2020-10-14 12:00:07 #4 type.registry] 
+New type domain.Event
+
+[2020-10-14 12:00:07 #5 type] 
+Type domain.Event is not enhanced.
+
+[2020-10-14 12:00:07 #6 type.registry] 
+New type domain.Question
+
+[2020-10-14 12:00:07 #7 type] 
+Type domain.Question is not enhanced.
+
+[2020-10-14 12:00:07 #8 type.registry] 
+New type domain.Pronostico
+
+[2020-10-14 12:00:07 #9 type] 
+Type domain.Pronostico is not enhanced.
+
+[2020-10-14 12:00:07 #10 type.registry] 
+New type domain.Apuesta
+
+[2020-10-14 12:00:07 #11 type] 
+Type domain.Apuesta is not enhanced.
+
+[2020-10-14 12:00:07 #12 type.registry] 
+New type domain.User
+
+[2020-10-14 12:00:07 #13 type] 
+Type domain.User is not enhanced.
+
+[2020-10-14 12:00:07 #14 type.registry] 
+New type domain.Ajustes
+
+[2020-10-14 12:00:07 #15 type.registry] 
+New type domain.Notification
+
+[2020-10-14 12:00:07 #16 type.registry] 
+New type domain.Publication
+
+[2020-10-14 12:00:07 #17 type.registry] 
+New type domain.Copia
+
+[2020-10-14 12:00:07 #18 type] 
+Type domain.Ajustes is not enhanced.
+
+[2020-10-14 12:00:07 #19 type] 
+Type domain.Notification is not enhanced.
+
+[2020-10-14 12:00:07 #20 type] 
+Type domain.Publication is not enhanced.
+
+[2020-10-14 12:00:07 #21 type] 
+Type domain.Copia is not enhanced.
+
+[2020-10-14 12:00:07 #22 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2020-10-14 12:00:07 #23 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2020-10-14 12:00:07 #24 type.registry] 
+New type java.util.ArrayList<java.lang.String>
+
+[2020-10-14 12:00:07 #25 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2020-10-14 12:00:07 #26 type.registry] 
+New type java.util.Vector<domain.Pronostico>
+
+[2020-10-14 12:00:07 #27 type.registry] 
+New type java.util.Vector<domain.Copia>
+
+[2020-10-14 12:00:07 #28 type.registry] 
+New type java.util.ArrayList<domain.Apuesta>
+
+[2020-10-14 12:00:07 #29 type.registry] 
+New type java.util.ArrayList<domain.Publication>
+
+[2020-10-14 12:00:07 #30 type.registry] 
+New type java.util.ArrayList<domain.Notification>
+
+[2020-10-14 12:00:07 #31 type.registry] 
+New type java.util.ArrayList<domain.User>
+
+[2020-10-14 12:00:07 #32 type.registry] 
+New type java.util.Vector<domain.Apuesta>
+

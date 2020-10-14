@@ -1,0 +1,130 @@
+
+'domain.User#equals(Ljava/lang/Object;)Z=
+3C:/Users/USER/git/IS2/BestMain/src/domain/User.java? ?("startingBlock*‹
+2=
+3C:/Users/USER/git/IS2/BestMain/src/domain/User.javaK
+ K("G
+=
+3C:/Users/USER/git/IS2/BestMain/src/domain/User.javaK K(
+""*¥
+3=
+3C:/Users/USER/git/IS2/BestMain/src/domain/User.javaJ J(~
+|
+=
+3C:/Users/USER/git/IS2/BestMain/src/domain/User.javaJ J(
+%4java.lang.String"__id**
+domain.User"
+
+username†
+ƒ
+=
+3C:/Users/USER/git/IS2/BestMain/src/domain/User.javaJ J(,
+%5java.lang.String"__id*$*"
+
+otherdomain.User"
+
+usernameÏÌ
+=
+3C:/Users/USER/git/IS2/BestMain/src/domain/User.javaJ J(-
+%6boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%4java.lang.String*
+
+%5java.lang.String2equals(Ljava/lang/Object;)*
+2
+1*Ö
+startingBlock=
+3C:/Users/USER/git/IS2/BestMain/src/domain/User.java? ?("‡
+„
+=
+3C:/Users/USER/git/IS2/BestMain/src/domain/User.java> >(
+
+%7"
+__annotate*
+java.lang.Override*
+
+objjava.lang.Objectp
+n
+=
+3C:/Users/USER/git/IS2/BestMain/src/domain/User.java? ?(!
+objjava.lang.Object"__annotation*
+
+%7*
+
+8
+9
+11*‹
+4=
+3C:/Users/USER/git/IS2/BestMain/src/domain/User.javaI I("G
+=
+3C:/Users/USER/git/IS2/BestMain/src/domain/User.javaI I(
+""*Ó
+5=
+3C:/Users/USER/git/IS2/BestMain/src/domain/User.javaH H(†
+ƒ
+=
+3C:/Users/USER/git/IS2/BestMain/src/domain/User.javaH H(
+%3java.lang.String"__id*$*"
+
+otherdomain.User"
+
+username*
+4
+1*Ä
+6=
+3C:/Users/USER/git/IS2/BestMain/src/domain/User.javaF F(x
+v
+=
+3C:/Users/USER/git/IS2/BestMain/src/domain/User.javaF F(
+otherdomain.User"__id*
+
+objjava.lang.Object~
+|
+=
+3C:/Users/USER/git/IS2/BestMain/src/domain/User.javaG G(
+%2java.lang.String"__id**
+domain.User"
+
+username*
+3
+5*‹
+7=
+3C:/Users/USER/git/IS2/BestMain/src/domain/User.javaE
+ E("G
+=
+3C:/Users/USER/git/IS2/BestMain/src/domain/User.javaE E(
+""*¢
+8=
+3C:/Users/USER/git/IS2/BestMain/src/domain/User.javaD D(¤¡
+=
+3C:/Users/USER/git/IS2/BestMain/src/domain/User.javaD D(
+%0java.lang.Class",java.lang.Object#getClass()Ljava/lang/Class;*
+domain.User2
+getClass()®«
+=
+3C:/Users/USER/git/IS2/BestMain/src/domain/User.javaD D("
+%1java.lang.Class",java.lang.Object#getClass()Ljava/lang/Class;*
+
+objjava.lang.Object2
+getClass()*
+6
+7*‹
+9=
+3C:/Users/USER/git/IS2/BestMain/src/domain/User.javaC
+ C("G
+=
+3C:/Users/USER/git/IS2/BestMain/src/domain/User.javaC C(
+""*Œ
+11=
+3C:/Users/USER/git/IS2/BestMain/src/domain/User.javaA
+ A("G
+=
+3C:/Users/USER/git/IS2/BestMain/src/domain/User.javaA A(
+""*‹
+1=
+3C:/Users/USER/git/IS2/BestMain/src/domain/User.javaL	 L("G
+=
+3C:/Users/USER/git/IS2/BestMain/src/domain/User.javaL L(
+"":
+objjava.lang.ObjectB
+domain.User

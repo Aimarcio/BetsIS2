@@ -1,0 +1,60 @@
+
+FdataAccess.DataAccess#getFollowing(Ljava/lang/String;)Ljava/util/List;I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.java€ €("5*Ê
+2I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.java› ›(ç
+ä
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.java› ›(
+%3domain.User"
+__arrayGet*
+
+%2java.util.List*
+""*
+2
+1*ä
+4I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.java› ›(¥±
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.java› ›("
+%2java.util.List"*domain.User#getFollowing()Ljava/util/List;*
+
+udomain.User2getFollowing()*
+2*≠
+5I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.java‹ ‹(û
+õ
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.java‹ ‹(%
+%0javax.persistence.EntityManager"__id*!*
+dataAccess.DataAccess"
+db∫∑
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.java‹ ‹((
+%1domain.User"[javax.persistence.EntityManager#find(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;*'
+%
+%0javax.persistence.EntityManager*
+""*
+
+usernamejava.lang.String2)find(Ljava/lang/Class;Ljava/lang/Object;)z
+x
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.java‹ ‹()
+udomain.User"__id*
+
+%1domain.User*
+4*Í
+1I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaﬁ	 ﬁ(
+¥±
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaﬁ	 ﬁ(
+%4java.util.List"*domain.User#getFollowing()Ljava/util/List;*
+
+udomain.User2getFollowing()"c
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaﬁ ﬁ(
+
+%4java.util.List:
+usernamejava.lang.StringB
+dataAccess.DataAccess

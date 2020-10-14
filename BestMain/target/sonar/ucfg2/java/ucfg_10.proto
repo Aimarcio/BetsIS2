@@ -1,0 +1,39 @@
+
+-gui.Header#getMenuBar()Ljavax/swing/JMenuBar;<
+2C:/Users/USER/git/IS2/BestMain/src/gui/Header.java (""3*¾
+2<
+2C:/Users/USER/git/IS2/BestMain/src/gui/Header.java! !(v
+t
+<
+2C:/Users/USER/git/IS2/BestMain/src/gui/Header.java! !(
+
+%1void"gui.Header#initialize()V*"
+
+gui.Header*
+1*Ê
+3<
+2C:/Users/USER/git/IS2/BestMain/src/gui/Header.java   (
+}
+<
+2C:/Users/USER/git/IS2/BestMain/src/gui/Header.java   (
+%0javax.swing.JMenuBar"__id**
+
+gui.Header"	
+menuBar*
+2
+1* 
+1<
+2C:/Users/USER/git/IS2/BestMain/src/gui/Header.java#	 #(
+}
+<
+2C:/Users/USER/git/IS2/BestMain/src/gui/Header.java#	 #(
+%2javax.swing.JMenuBar"__id**
+
+gui.Header"	
+menuBar"\
+<
+2C:/Users/USER/git/IS2/BestMain/src/gui/Header.java# #(
+
+%2javax.swing.JMenuBarB"
+
+gui.Header

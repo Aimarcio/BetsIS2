@@ -1,0 +1,81 @@
+
+"gui.FindUsers#areUnsavedChanges()ZA
+5C:/Users/USER/git/IS2/BestMain/src/gui/FindUsers.javaé é(""1*◊
+1A
+5C:/Users/USER/git/IS2/BestMain/src/gui/FindUsers.javaè
+ è(è
+å
+A
+5C:/Users/USER/git/IS2/BestMain/src/gui/FindUsers.javaè
+ è(
+%0javax.swing.JTextField"__id*#*!
+gui.FindUsers"
+textUsername£†
+A
+5C:/Users/USER/git/IS2/BestMain/src/gui/FindUsers.javaè
+ è("
+%1boolean"java.awt.Component#isVisible()Z*
+
+%0javax.swing.JTextField2isVisible()ç
+ä
+A
+5C:/Users/USER/git/IS2/BestMain/src/gui/FindUsers.javaè$ è(.
+%2javax.swing.JTextField"__id*!*
+gui.FindUsers"
+
+textNombre£†
+A
+5C:/Users/USER/git/IS2/BestMain/src/gui/FindUsers.javaè$ è(:
+%3boolean"java.awt.Component#isVisible()Z*
+
+%2javax.swing.JTextField2isVisible()ã
+à
+A
+5C:/Users/USER/git/IS2/BestMain/src/gui/FindUsers.javaè< è(D
+%4javax.swing.JTextField"__id**
+gui.FindUsers"
+
+textApe1£†
+A
+5C:/Users/USER/git/IS2/BestMain/src/gui/FindUsers.javaè< è(P
+%5boolean"java.awt.Component#isVisible()Z*
+
+%4javax.swing.JTextField2isVisible()ã
+à
+A
+5C:/Users/USER/git/IS2/BestMain/src/gui/FindUsers.javaèR è(Z
+%6javax.swing.JTextField"__id**
+gui.FindUsers"
+
+textApe2£†
+A
+5C:/Users/USER/git/IS2/BestMain/src/gui/FindUsers.javaèR è(f
+%7boolean"java.awt.Component#isVisible()Z*
+
+%6javax.swing.JTextField2isVisible()ä
+á
+A
+5C:/Users/USER/git/IS2/BestMain/src/gui/FindUsers.javaèh è(o
+%8javax.swing.JTextField"__id**
+gui.FindUsers"	
+textDNI£†
+A
+5C:/Users/USER/git/IS2/BestMain/src/gui/FindUsers.javaèh è({
+%9boolean"java.awt.Component#isVisible()Z*
+
+%8javax.swing.JTextField2isVisible()é
+ã
+B
+5C:/Users/USER/git/IS2/BestMain/src/gui/FindUsers.javaè} è(Ü
+%10javax.swing.JTextField"__id* *
+gui.FindUsers"
+	textEmail¶£
+B
+5C:/Users/USER/git/IS2/BestMain/src/gui/FindUsers.javaè} è(í
+%11boolean"java.awt.Component#isVisible()Z*
+
+%10javax.swing.JTextField2isVisible()"L
+B
+5C:/Users/USER/git/IS2/BestMain/src/gui/FindUsers.javaè è(î
+""B
+gui.FindUsers

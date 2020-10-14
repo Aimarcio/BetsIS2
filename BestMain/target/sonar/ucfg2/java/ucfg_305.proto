@@ -1,0 +1,74 @@
+
+MbusinessLogic.BLFacadeImplementation#cancelBet(Ldomain/Apuesta;)Ldomain/User;X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.javaÐ Ð("startingBlock*›
+startingBlockX
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.javaÐ Ð(!Ÿ
+œ
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.javaÏ Ï(
+%6"
+__annotate*
+javax.jws.WebMethod*
+
+adomain.Apuestaˆ
+…
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.javaÐ Ð( 
+adomain.Apuesta"__annotation*
+
+%6*
+1*„
+1X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.javaÑ Ñ(¹
+¶
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.javaÑ Ñ(
+%0dataAccess.DataAccess"__id*7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager¹¶
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.javaÑ Ñ(
+
+%1void"dataAccess.DataAccess#open(Z)V*
+
+%0dataAccess.DataAccess*
+""2open(Z)¹
+¶
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.javaÒ
+ Ò(
+%2dataAccess.DataAccess"__id*7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManagerƒ€
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.javaÒ
+ Ò( 
+%3domain.User">dataAccess.DataAccess#cancelBet(Ldomain/Apuesta;)Ldomain/User;*
+
+%2dataAccess.DataAccess*
+
+adomain.Apuesta2cancelBet(Ldomain/Apuesta;)Š
+‡
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.javaÒ Ò(!
+udomain.User"__id*
+
+%3domain.User¹
+¶
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.javaÓ Ó(
+%4dataAccess.DataAccess"__id*7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager±®
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.javaÓ Ó(
+
+%5void"dataAccess.DataAccess#close()V*
+
+%4dataAccess.DataAccess2close()"n
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.javaÔ Ô(
+
+udomain.User:
+adomain.ApuestaB(&
+$businessLogic.BLFacadeImplementation

@@ -1,0 +1,52 @@
+
+DbusinessLogic.BLFacadeImplementation#getAllEquipos()Ljava/util/List;X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.java„ „(""1*æ
+1X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.java… …(¹
+¶
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.java… …(
+%0dataAccess.DataAccess"__id*7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager¹¶
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.java… …(
+
+%1void"dataAccess.DataAccess#open(Z)V*
+
+%0dataAccess.DataAccess*
+""2open(Z)¹
+¶
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.java† †(
+%2dataAccess.DataAccess"__id*7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManagerÚ×
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.java† †(-
+%3java.util.List"5dataAccess.DataAccess#getAllEquipos()Ljava/util/List;*
+
+%2dataAccess.DataAccess2getAllEquipos()‘
+Ž
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.java† †(.
+lejava.util.List"__id*
+
+%3java.util.List¹
+¶
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.java‡ ‡(
+%4dataAccess.DataAccess"__id*7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager±®
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.java‡ ‡(
+
+%5void"dataAccess.DataAccess#close()V*
+
+%4dataAccess.DataAccess2close()"r
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.javaˆ ˆ(
+
+lejava.util.ListB(&
+$businessLogic.BLFacadeImplementation

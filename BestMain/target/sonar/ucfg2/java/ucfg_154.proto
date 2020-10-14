@@ -1,0 +1,57 @@
+
+KdataAccess.DataAccess#getNotificaciones(Ljava/lang/String;)Ljava/util/List;I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaª ª(,"5*ğ
+2I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.java­ ­(—
+”
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.java­ ­(
+%3domain.Notification"
+__arrayGet*
+
+listjava.util.List*
+""*
+2
+1*õ
+5I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.java« «(
+›
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.java« «(%
+%0javax.persistence.EntityManager"__id*!*
+dataAccess.DataAccess"
+dbº·
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.java« «((
+%1domain.User"[javax.persistence.EntityManager#find(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;*'
+%
+%0javax.persistence.EntityManager*
+""*
+
+usernamejava.lang.String2)find(Ljava/lang/Class;Ljava/lang/Object;)z
+x
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.java« «()
+udomain.User"__id*
+
+%1domain.User¾»
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.java¬ ¬(1
+%2java.util.List"/domain.User#getNotificaciones()Ljava/util/List;*
+
+udomain.User2getNotificaciones()„
+
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.java¬ ¬(2
+listjava.util.List"__id*
+
+%2java.util.List*
+2*µ
+1I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.java®	 ®("e
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.java® ®(
+
+listjava.util.List:
+usernamejava.lang.StringB
+dataAccess.DataAccess

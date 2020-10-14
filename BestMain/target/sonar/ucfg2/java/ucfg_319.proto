@@ -1,0 +1,52 @@
+
+JbusinessLogic.BLFacadeImplementation#getUnresolvedEvents()Ljava/util/List;X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.java³ ³(."1*ò
+1X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.java´ ´(¹
+¶
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.java´ ´(
+%0dataAccess.DataAccess"__id*7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager¹¶
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.java´ ´(
+
+%1void"dataAccess.DataAccess#open(Z)V*
+
+%0dataAccess.DataAccess*
+""2open(Z)¹
+¶
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.javaµ µ(&
+%2dataAccess.DataAccess"__id*7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManageràÝ
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.javaµ µ(9
+%3java.util.List"8dataAccess.DataAccess#nonResolvedEvent()Ljava/util/List;*
+
+%2dataAccess.DataAccess2nonResolvedEvent()”
+‘
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.javaµ µ(:
+listajava.util.List"__id*
+
+%3java.util.List¹
+¶
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.java¶ ¶(
+%4dataAccess.DataAccess"__id*7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager±®
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.java¶ ¶(
+
+%5void"dataAccess.DataAccess#close()V*
+
+%4dataAccess.DataAccess2close()"u
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.java· ·(
+
+listajava.util.ListB(&
+$businessLogic.BLFacadeImplementation

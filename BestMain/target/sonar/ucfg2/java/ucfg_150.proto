@@ -1,0 +1,34 @@
+
+5dataAccess.DataAccess#getAllEquipos()Ljava/util/List;I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaÅ Å(""1*ª
+1I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaÇ Ç(û
+õ
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaÇ Ç(%
+%0javax.persistence.EntityManager"__id*!*
+dataAccess.DataAccess"
+db·ﬁ
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaÇ Ç(R"
+%1javax.persistence.TypedQuery"njavax.persistence.EntityManager#createQuery(Ljava/lang/String;Ljava/lang/Class;)Ljavax/persistence/TypedQuery;*'
+%
+%0javax.persistence.EntityManager*
+SELECT e FROM Equipo e*
+""20createQuery(Ljava/lang/String;Ljava/lang/Class;)°
+û
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaÇ Ç(S%
+queryjavax.persistence.TypedQuery"__id*$
+"
+%1javax.persistence.TypedQuery‹Ÿ
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaÉ	 É(
+%2java.util.List"<javax.persistence.TypedQuery#getResultList()Ljava/util/List;*'
+%
+queryjavax.persistence.TypedQuery2getResultList()"c
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaÉ É(
+
+%2java.util.ListB
+dataAccess.DataAccess

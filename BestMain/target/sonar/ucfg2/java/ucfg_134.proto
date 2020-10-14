@@ -1,0 +1,663 @@
+
+QdataAccess.DataAccess#apostar(Ldomain/User;Ldomain/Pronostico;ILjava/util/List;)VI
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaณ ณ("31*ว
+24I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaฝ9 ฝ(W“
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaฝ& ฝ(8$
+%20exceptions.InsufficientPoints"exceptions.InsufficientPointsฺ
+ื
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaฝ" ฝ(X
+%21"9exceptions.InsufficientPoints#<init>(Ljava/lang/String;)V*&
+$
+%20exceptions.InsufficientPoints* 
+no tienes suficientes puntos*
+0*๑
+25I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaฝ ฝ(•’
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaฝ ฝ(
+
+%19int"domain.User#getPuntos()I*
+
+udomain.User2getPuntos()*
+24
+23*ฐ
+26I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaผb ผ(}
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaผT ผ(a
+%17exceptions.EventFinished"exceptions.EventFinishedอ
+ส
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaผP ผ(~
+%18"4exceptions.EventFinished#<init>(Ljava/lang/String;)V*!
+
+%17exceptions.EventFinished*
+El evento ya ha terminado*
+0*๙	
+27I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaป ป(tr
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaป ป(
+%11java.util.Date"java.util.Date
+…
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaป ป(
+%12"java.util.Date#<init>()V*
+
+%11java.util.Date
+
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaป ป(
+hoyjava.util.Date"__id*
+
+%11java.util.Dateสว
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaผ ผ(
+%13domain.Question"0domain.Pronostico#getQuestion()Ldomain/Question;*!
+
+
+pronosticodomain.Pronostico2getQuestion()ณฐ
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaผ ผ((
+%14domain.Event"(domain.Question#getEvent()Ldomain/Event;*
+
+%13domain.Question2
+getEvent()นถ
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaผ ผ(7
+%15java.util.Date"+domain.Event#getEventDate()Ljava/util/Date;*
+
+%14domain.Event2getEventDate()ึำ
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaผ ผ(F
+
+%16int"+java.util.Date#compareTo(Ljava/util/Date;)I*
+
+%15java.util.Date*
+
+hoyjava.util.Date2compareTo(Ljava/util/Date;)*
+25
+26*บ
+28I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaบ3 บ(V
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaบ$ บ(2
+%9exceptions.ObjectNotFound"exceptions.ObjectNotFoundึ
+ำ
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaบ  บ(W
+%10"5exceptions.ObjectNotFound#<init>(Ljava/lang/String;)V*!
+
+%9exceptions.ObjectNotFound*%#
+!no se ha encontrado el pronostico*
+0*ถ
+30I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaน- น(M
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaน น(,
+%7exceptions.ObjectNotFound"exceptions.ObjectNotFoundา
+ฯ
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaน น(N
+%8"5exceptions.ObjectNotFound#<init>(Ljava/lang/String;)V*!
+
+%7exceptions.ObjectNotFound*" 
+no se ha encontrado el usuario*
+0*
+31I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaด ด(-ฉฆ
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaด ด(7
+%0boolean"java.util.List#isEmpty()Z*$
+"
+usuariosConCopiajava.util.List2	isEmpty()
+
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaต ต(%
+%1javax.persistence.EntityManager"__id*!*
+dataAccess.DataAccess"
+dbถณ
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaต" ต(1
+%2java.lang.String"+domain.User#getUsername()Ljava/lang/String;*
+
+udomain.User2getUsername()ดฑ
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaต ต(2
+%3domain.User"[javax.persistence.EntityManager#find(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;*'
+%
+%1javax.persistence.EntityManager*
+""*
+
+%2java.lang.String2)find(Ljava/lang/Class;Ljava/lang/Object;)}
+{
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaต ต(3
+userdomain.User"__id*
+
+%3domain.User
+
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaถ ถ(%
+%4javax.persistence.EntityManager"__id*!*
+dataAccess.DataAccess"
+db•
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaถ4 ถ(=	
+%5int"domain.Pronostico#getId()I*
+
+pdomain.Pronostico2getId()ญช
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaถ ถ(>
+%6domain.Pronostico"[javax.persistence.EntityManager#find(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;*'
+%
+%4javax.persistence.EntityManager*
+""*
+	
+%5int2)find(Ljava/lang/Class;Ljava/lang/Object;)
+
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaถ ถ(?
+
+pronosticodomain.Pronostico"__id*
+
+%6domain.Pronostico*
+27
+28
+30*ภ
+10I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaÞ	 Þ(7ๆใ
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaÞ	 Þ(7
+%74boolean",java.util.List#contains(Ljava/lang/Object;)Z*$
+"
+usuariosConCopiajava.util.List*
+
+%73domain.User2contains(Ljava/lang/Object;)*
+3
+8*
+11I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaÞ	 Þ(ทด
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaÞ# Þ(6
+%73domain.User"+domain.Copia#getUserCopiando()Ldomain/User;*
+
+cdomain.Copia2getUserCopiando()*
+10*
+13I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaÜ Ü(ถณ
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaÜ Ü(#
+%72java.util.List")domain.User#getCopiando()Ljava/util/List;*
+
+userdomain.User2getCopiando()*
+3*Ü
+14I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaำ ำ(o
+m
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaำ ำ(
+usrdomain.User"__id*
+""
+
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaำ ำ(
+usrdomain.User"
+__arrayGet*
+
+%64java.util.List*
+""*
+13
+16*ี
+15I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaี ี(~|
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaี ี()
+%67domain.Notification"domain.Notification๓
+๐
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaี ี(9
+%68"Adomain.Notification#<init>(Ljava/lang/String;Ljava/lang/String;)V*
+
+%67domain.Notification*
+
+titulojava.lang.String*
+
+mensajejava.lang.String์้
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaี ี(:
+%69void"3domain.User#addNotification(Ldomain/Notification;)V*
+
+usrdomain.User*
+
+%67domain.Notification2&addNotification(Ldomain/Notification;)
+
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaึ ึ(&
+%70javax.persistence.EntityManager"__id*!*
+dataAccess.DataAccess"
+db๖๓
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaึ ึ(
+%71void"<javax.persistence.EntityManager#persist(Ljava/lang/Object;)V*(
+&
+%70javax.persistence.EntityManager*
+
+usrdomain.User2persist(Ljava/lang/Object;)*
+14*ั
+16I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaิ ิ(
+ตฒ
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaิ ิ(
+%65domain.Ajustes")domain.User#getSettings()Ldomain/Ajustes;*
+
+usrdomain.User2getSettings()ฝบ
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaิ ิ(2
+%66boolean")domain.Ajustes#isNotificacionesApuesta()Z*
+
+%65domain.Ajustes2isNotificacionesApuesta()*
+14
+15*
+17I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaำ ำ(ธต
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaำ ำ(%
+%64java.util.List"*domain.User#getFollowers()Ljava/util/List;*
+
+userdomain.User2getFollowers()*
+14*Ý
+18I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaฮ ฮ( ศล
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaฮ! ฮ(:
+%48java.lang.String"2domain.User#getUserVisibleName()Ljava/lang/String;*
+
+userdomain.User2getUserVisibleName()
+
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaฮ ฮ(:
+%49java.lang.String"__concat*
+Apuesta de *
+
+%48java.lang.String“
+
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaฮ ฮ(>
+%50java.lang.String"__concat*
+
+%49java.lang.String*
+!
+
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaฮ ฮ(?
+titulojava.lang.String"__id*
+
+%50java.lang.Stringมพ
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaฯ ฯ(.
+%51domain.Question"0domain.Pronostico#getQuestion()Ldomain/Question;*
+
+pdomain.Pronostico2getQuestion()ณฐ
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaฯ ฯ(9
+%52domain.Event"(domain.Question#getEvent()Ldomain/Event;*
+
+%51domain.Question2
+getEvent()–
+“
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaฯ ฯ(9
+%53java.lang.String"__concat*
+
+Evento: *
+
+%52domain.Event–
+“
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaฯ ฯ(@
+%54java.lang.String"__concat*
+
+%53java.lang.String*
+<br>
+
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaฯ ะ(
+%55java.lang.String"__concat*
+
+%54java.lang.String*
+
+Pregunta: มพ
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaะ ะ($
+%56domain.Question"0domain.Pronostico#getQuestion()Ldomain/Question;*
+
+pdomain.Pronostico2getQuestion()ฆ
+ฃ
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaฯ ะ($
+%57java.lang.String"__concat*
+
+%55java.lang.String*
+
+%56domain.Question–
+“
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaฯ ะ(+
+%58java.lang.String"__concat*
+
+%57java.lang.String*
+<br>
+
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaฯ ั(
+%59java.lang.String"__concat*
+
+%58java.lang.String*
+Pronostico: ฆ
+ฃ
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaฯ ั(
+%60java.lang.String"__concat*
+
+%59java.lang.String*
+
+pdomain.Pronostico–
+“
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaฯ ั(
+%61java.lang.String"__concat*
+
+%60java.lang.String*
+<br>
+
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaฯ า(
+%62java.lang.String"__concat*
+
+%61java.lang.String*
+
+Cantidad: ”
+‘
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaฯ า(
+%63java.lang.String"__concat*
+
+%62java.lang.String*
+""
+
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaฯ า(
+mensajejava.lang.String"__id*
+
+%63java.lang.String*
+17*ฅ
+19I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaร ร("ซจ
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaร$ ร(9
+%33double"domain.Pronostico#getCuota()D*!
+
+
+pronosticodomain.Pronostico2
+getCuota()tr
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaร ร(
+%34domain.Apuesta"domain.Apuestaý
+๚
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaร ร(L
+%35":domain.Apuesta#<init>(IDLdomain/Pronostico;Ldomain/User;)V*
+
+%34domain.Apuesta*
+""*
+
+%33double*!
+
+
+pronosticodomain.Pronostico*
+
+userdomain.User
+
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaร ร(M
+adomain.Apuesta"__id*
+
+%34domain.Apuestaไแ
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaฤ ฤ(
+%36void"/domain.Pronostico#addApuesta(Ldomain/Apuesta;)V*!
+
+
+pronosticodomain.Pronostico*
+
+adomain.Apuesta2addApuesta(Ldomain/Apuesta;)าฯ
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaล ล(
+%37void")domain.User#addApuesta(Ldomain/Apuesta;)V*
+
+userdomain.User*
+
+adomain.Apuesta2addApuesta(Ldomain/Apuesta;)ฉฆ
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaฦ ฦ(
+%38void"domain.User#restarPuntos(I)V*
+
+userdomain.User*
+""2restarPuntos(I)ซ
+จ
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaว ว(
+%39boolean"
+__arrayAdd*$
+"
+usuariosConCopiajava.util.List*: *
+
+userdomain.User
+
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaศ ศ(&
+%40javax.persistence.EntityManager"__id*!*
+dataAccess.DataAccess"
+db๗๔
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaศ ศ(
+%41void"<javax.persistence.EntityManager#persist(Ljava/lang/Object;)V*(
+&
+%40javax.persistence.EntityManager*
+
+userdomain.User2persist(Ljava/lang/Object;)
+
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaษ ษ(&
+%42javax.persistence.EntityManager"__id*!*
+dataAccess.DataAccess"
+db€
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaษ ษ(
+%43void"<javax.persistence.EntityManager#persist(Ljava/lang/Object;)V*(
+&
+%42javax.persistence.EntityManager*!
+
+
+pronosticodomain.Pronostico2persist(Ljava/lang/Object;)ถณ
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaอ อ(
+%44domain.Ajustes")domain.User#getSettings()Ldomain/Ajustes;*
+
+userdomain.User2getSettings()
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaอ อ($
+%45boolean"domain.Ajustes#isPerfil()Z*
+
+%44domain.Ajustes2
+isPerfil()ถณ
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaอ' อ(9
+%46domain.Ajustes")domain.User#getSettings()Ldomain/Ajustes;*
+
+userdomain.User2getSettings()ณฐ
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaอ' อ(N
+%47boolean"$domain.Ajustes#isApuestasprivadas()Z*
+
+%46domain.Ajustes2isApuestasprivadas()*
+13
+18*g
+0 "`
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.java่ ่(
+implicit return*ส
+1I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.java็ ็(
+
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.java็ ็(&
+%81javax.persistence.EntityManager"__id*!*
+dataAccess.DataAccess"
+db
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.java็ ็(*
+%82#javax.persistence.EntityTransaction"Ujavax.persistence.EntityManager#getTransaction()Ljavax/persistence/EntityTransaction;*(
+&
+%81javax.persistence.EntityManager2getTransaction()ยฟ
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.java็ ็(
+%83void"-javax.persistence.EntityTransaction#commit()V*,
+*
+%82#javax.persistence.EntityTransaction2commit()*
+0*Û
+3I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaÜ Ü(n
+l
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaÜ Ü(
+cdomain.Copia"__id*
+""
+
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaÜ Ü(
+cdomain.Copia"
+__arrayGet*
+
+%72java.util.List*
+""*
+
+0
+11
+1*ย
+6I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.java฿5 ฿(J์้
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.java฿ ฿(]
+%77void"QdataAccess.DataAccess#apostar(Ldomain/User;Ldomain/Pronostico;ILjava/util/List;)V*
+dataAccess.DataAccess*
+
+%75domain.User*!
+
+
+pronosticodomain.Pronostico*
+""*$
+"
+usuariosConCopiajava.util.List2:apostar(Ldomain/User;Ldomain/Pronostico;ILjava/util/List;)*
+3*๎
+7I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.java฿" ฿(,•
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.java฿> ฿(J
+%76double"domain.Copia#getRatio()D*
+
+cdomain.Copia2
+getRatio()*
+6*
+8I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.java฿ ฿(ทด
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.java฿ ฿( 
+%75domain.User"+domain.Copia#getUserCopiando()Ldomain/User;*
+
+cdomain.Copia2getUserCopiando()*
+7*ส
+20I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaย ย(
+
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaย ย(&
+%30javax.persistence.EntityManager"__id*!*
+dataAccess.DataAccess"
+db
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaย ย(*
+%31#javax.persistence.EntityTransaction"Ujavax.persistence.EntityManager#getTransaction()Ljavax/persistence/EntityTransaction;*(
+&
+%30javax.persistence.EntityManager2getTransaction()ภฝ
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaย ย(
+%32void",javax.persistence.EntityTransaction#begin()V*,
+*
+%31#javax.persistence.EntityTransaction2begin()*
+19*โ
+22I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaพP พ(yยฟ
+J
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaพz พ(
+%25domain.Question"0domain.Pronostico#getQuestion()Ldomain/Question;*
+
+pdomain.Pronostico2getQuestion()จฅ
+J
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaพz พ(
+
+%26int" domain.Question#getBetMinimum()I*
+
+%25domain.Question2getBetMinimum()ฎ
+ซ
+J
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaพP พ(
+%27java.lang.String"__concat*,*
+(en esta pregunta has de apostar mรกs de *
+
+
+%26int“
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaพ= พ(O$
+%28exceptions.InsufficientPoints"exceptions.InsufficientPointsิ
+ั
+J
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaพ9 พ(
+%29"9exceptions.InsufficientPoints#<init>(Ljava/lang/String;)V*&
+$
+%28exceptions.InsufficientPoints*
+
+%27java.lang.String*
+0*ใ
+23I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaพ พ(•’
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaพ พ(
+
+%22int"domain.User#getPuntos()I*
+
+udomain.User2getPuntos()มพ
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaพ พ("
+%23domain.Question"0domain.Pronostico#getQuestion()Ldomain/Question;*
+
+pdomain.Pronostico2getQuestion()งค
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaพ พ(2
+
+%24int" domain.Question#getBetMinimum()I*
+
+%23domain.Question2getBetMinimum()*
+19
+20
+22:
+udomain.User:
+pdomain.Pronostico:
+"":"
+usuariosConCopiajava.util.ListB
+dataAccess.DataAccess

@@ -1,0 +1,72 @@
+
+PbusinessLogic.BLFacadeImplementation#getEvents(Ljava/util/Date;)Ljava/util/List;V
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.javaW W("startingBlock*õ
+startingBlockV
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.javaW W((†
+ù
+V
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.javaV V(
+%6"
+__annotate*
+javax.jws.WebMethod*
+
+datejava.util.Dateâ
+Ü
+V
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.javaW# W('
+datejava.util.Date"__annotation*
+
+%6*
+1*é
+1V
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.javaX X(∑
+¥
+V
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.javaX X(
+%0dataAccess.DataAccess"__id*7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager∑¥
+V
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.javaX X(
+
+%1void"dataAccess.DataAccess#open(Z)V*
+
+%0dataAccess.DataAccess*
+""2open(Z)∑
+¥
+V
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.javaY Y( 
+%2dataAccess.DataAccess"__id*7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManageräá
+V
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.javaY Y(0
+%3java.util.List"AdataAccess.DataAccess#getEvents(Ljava/util/Date;)Ljava/util/List;*
+
+%2dataAccess.DataAccess*
+
+datejava.util.Date2getEvents(Ljava/util/Date;)ì
+ê
+V
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.javaY Y(1
+eventsjava.util.List"__id*
+
+%3java.util.List∑
+¥
+V
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.javaZ Z(
+%4dataAccess.DataAccess"__id*7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManagerØ¨
+V
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.javaZ Z(
+
+%5void"dataAccess.DataAccess#close()V*
+
+%4dataAccess.DataAccess2close()"t
+V
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.java[ [(
+
+eventsjava.util.List:
+datejava.util.DateB(&
+$businessLogic.BLFacadeImplementation

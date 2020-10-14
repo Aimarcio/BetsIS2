@@ -1,0 +1,95 @@
+
+kbusinessLogic.BLFacadeImplementation#addPronostico(Ldomain/Question;Ljava/lang/String;D)Ldomain/Pronostico;X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.javaÂ Â( "startingBlock*à
+startingBlockX
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.javaÂ  Â(M 
+
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.javaÁ Á(
+%6"
+__annotate*
+javax.jws.WebMethod*
+
+qdomain.Question‰
+†
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.javaÂ* Â(+
+qdomain.Question"__annotation*
+
+%6ª
+§
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.javaÁ Á(
+%7"
+__annotate*
+javax.jws.WebMethod* 
+
+
+pronosticojava.lang.String“
+
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.javaÂ4 Â(>
+
+pronosticojava.lang.String"__annotation*
+
+%7*
+1*ý
+1X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.javaÃ Ã(¹
+¶
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.javaÃ Ã(
+%0dataAccess.DataAccess"__id*7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager¹¶
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.javaÃ Ã(
+
+%1void"dataAccess.DataAccess#open(Z)V*
+
+%0dataAccess.DataAccess*
+""2open(Z)¹
+¶
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.javaÄ Ä(
+%2dataAccess.DataAccess"__id*7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManagerêç
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.javaÄ Ä(>
+%3domain.Pronostico"\dataAccess.DataAccess#addPronostico(Ldomain/Question;Ljava/lang/String;D)Ldomain/Pronostico;*
+
+%2dataAccess.DataAccess*
+
+qdomain.Question* 
+
+
+pronosticojava.lang.String*
+""23addPronostico(Ldomain/Question;Ljava/lang/String;D)–
+“
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.javaÄ Ä(?
+pdomain.Pronostico"__id*
+
+%3domain.Pronostico¹
+¶
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.javaÅ Å(
+%4dataAccess.DataAccess"__id*7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager±®
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.javaÅ Å(
+
+%5void"dataAccess.DataAccess#close()V*
+
+%4dataAccess.DataAccess2close()"t
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.javaÆ Æ(
+
+pdomain.Pronostico:
+qdomain.Question:
+
+pronosticojava.lang.String:
+""B(&
+$businessLogic.BLFacadeImplementation

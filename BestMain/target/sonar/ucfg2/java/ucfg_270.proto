@@ -1,0 +1,451 @@
+
+)gui.infoApuesta#<init>(Ldomain/Apuesta;)VA
+7C:/Users/USER/git/IS2/BestMain/src/gui/infoApuesta.java ("4*ﬁ
+2A
+7C:/Users/USER/git/IS2/BestMain/src/gui/infoApuesta.javaB B(é
+ã
+A
+7C:/Users/USER/git/IS2/BestMain/src/gui/infoApuesta.javaB B(
+%52javax.swing.JPanel"__id*%*#
+gui.infoApuesta"
+contentPanelˇ¸
+A
+7C:/Users/USER/git/IS2/BestMain/src/gui/infoApuesta.javaB B(
+%53java.awt.Component"@java.awt.Container#add(Ljava/awt/Component;)Ljava/awt/Component;*
+
+%52javax.swing.JPanel*"
+ 
+	btnCanceljavax.swing.JButton2add(Ljava/awt/Component;)*
+1*Ç
+3A
+7C:/Users/USER/git/IS2/BestMain/src/gui/infoApuesta.javaA A(Ö
+Ç
+A
+7C:/Users/USER/git/IS2/BestMain/src/gui/infoApuesta.javaA A(
+%46domain.Apuesta"__id* *
+gui.infoApuesta"	
+apuesta•¢
+A
+7C:/Users/USER/git/IS2/BestMain/src/gui/infoApuesta.javaA A(
+%47domain.User"%domain.Apuesta#getUser()Ldomain/User;*
+
+%46domain.Apuesta2	getUser()ë
+é
+A
+7C:/Users/USER/git/IS2/BestMain/src/gui/infoApuesta.javaA% A(:
+%48domain.User"&gui.LOGIN#getUsuarioAct()Ldomain/User;*"
+	gui.LOGIN«ƒ
+A
+7C:/Users/USER/git/IS2/BestMain/src/gui/infoApuesta.javaA A(;
+%49boolean"'domain.User#equals(Ljava/lang/Object;)Z*
+
+%47domain.User*
+
+%48domain.User2equals(Ljava/lang/Object;)ë
+é
+A
+7C:/Users/USER/git/IS2/BestMain/src/gui/infoApuesta.javaA< A(Q
+%50domain.User"&gui.LOGIN#getUsuarioAct()Ldomain/User;*"
+	gui.LOGINèå
+A
+7C:/Users/USER/git/IS2/BestMain/src/gui/infoApuesta.javaA< A([
+%51boolean"domain.User#isAdmin()Z*
+
+%50domain.User2	isAdmin()*
+2
+1*àD
+4A
+7C:/Users/USER/git/IS2/BestMain/src/gui/infoApuesta.java (w
+u
+A
+7C:/Users/USER/git/IS2/BestMain/src/gui/infoApuesta.java ("
+%0java.awt.Dialog$ModalityType"__id*
+""w
+u
+A
+7C:/Users/USER/git/IS2/BestMain/src/gui/infoApuesta.java (,"
+%1java.awt.Dialog$ModalityType"__id*
+""Ú
+Ô
+A
+7C:/Users/USER/git/IS2/BestMain/src/gui/infoApuesta.java (-
+%2javax.swing.JDialog"Ljavax.swing.JDialog#<init>(Ljava/awt/Window;Ljava/awt/Dialog$ModalityType;)V*
+gui.infoApuesta*
+""*$
+"
+%1java.awt.Dialog$ModalityType^
+\
+A
+7C:/Users/USER/git/IS2/BestMain/src/gui/infoApuesta.java (3	
+%3int"__id*
+""√¿
+A
+7C:/Users/USER/git/IS2/BestMain/src/gui/infoApuesta.java (4
+
+%4void"0javax.swing.JDialog#setDefaultCloseOperation(I)V*
+gui.infoApuesta*
+	
+%3int2setDefaultCloseOperation(I)É
+Ä
+A
+7C:/Users/USER/git/IS2/BestMain/src/gui/infoApuesta.java   (
+gui.infoApuesta"	
+apuesta"__id*
+
+adomain.Apuestaæª
+A
+7C:/Users/USER/git/IS2/BestMain/src/gui/infoApuesta.java! !(
+
+%5void"-java.awt.Dialog#setTitle(Ljava/lang/String;)V*
+gui.infoApuesta*
+Info2setTitle(Ljava/lang/String;)¥±
+A
+7C:/Users/USER/git/IS2/BestMain/src/gui/infoApuesta.java" "(
+
+%6void" java.awt.Window#setBounds(IIII)V*
+gui.infoApuesta*2d*2d*2¥*2«2setBounds(IIII)¡æ
+A
+7C:/Users/USER/git/IS2/BestMain/src/gui/infoApuesta.java# #(
+%7java.awt.Container"8javax.swing.JDialog#getContentPane()Ljava/awt/Container;*
+gui.infoApuesta2getContentPane()yw
+A
+7C:/Users/USER/git/IS2/BestMain/src/gui/infoApuesta.java#! #(-
+%8java.awt.BorderLayout"java.awt.BorderLayoutå
+â
+A
+7C:/Users/USER/git/IS2/BestMain/src/gui/infoApuesta.java# #(/
+%9"java.awt.BorderLayout#<init>()V*
+
+%8java.awt.BorderLayoutÏÈ
+A
+7C:/Users/USER/git/IS2/BestMain/src/gui/infoApuesta.java# #(0
+%10void"7java.awt.Container#setLayout(Ljava/awt/LayoutManager;)V*
+
+%7java.awt.Container*
+
+%8java.awt.BorderLayout2#setLayout(Ljava/awt/LayoutManager;)é
+ã
+A
+7C:/Users/USER/git/IS2/BestMain/src/gui/infoApuesta.java$ $(
+%11javax.swing.JPanel"__id*%*#
+gui.infoApuesta"
+contentPanelçä
+A
+7C:/Users/USER/git/IS2/BestMain/src/gui/infoApuesta.java$ $((%
+%12javax.swing.border.EmptyBorder"javax.swing.border.EmptyBorderº
+π
+A
+7C:/Users/USER/git/IS2/BestMain/src/gui/infoApuesta.java$ $(4
+%13",javax.swing.border.EmptyBorder#<init>(IIII)V*'
+%
+%12javax.swing.border.EmptyBorder*2*2*2*2Å˛
+A
+7C:/Users/USER/git/IS2/BestMain/src/gui/infoApuesta.java$ $(5
+%14void">javax.swing.JComponent#setBorder(Ljavax/swing/border/Border;)V*
+
+%11javax.swing.JPanel*'
+%
+%12javax.swing.border.EmptyBorder2&setBorder(Ljavax/swing/border/Border;)¬ø
+A
+7C:/Users/USER/git/IS2/BestMain/src/gui/infoApuesta.java% %(
+%15java.awt.Container"8javax.swing.JDialog#getContentPane()Ljava/awt/Container;*
+gui.infoApuesta2getContentPane()é
+ã
+A
+7C:/Users/USER/git/IS2/BestMain/src/gui/infoApuesta.java% %(#
+%16javax.swing.JPanel"__id*%*#
+gui.infoApuesta"
+contentPanell
+j
+A
+7C:/Users/USER/git/IS2/BestMain/src/gui/infoApuesta.java%% %(8
+%17java.lang.String"__id*
+""ñì
+A
+7C:/Users/USER/git/IS2/BestMain/src/gui/infoApuesta.java% %(9
+%18void"?java.awt.Container#add(Ljava/awt/Component;Ljava/lang/Object;)V*
+
+%15java.awt.Container*
+
+%16javax.swing.JPanel*
+
+%17java.lang.String2+add(Ljava/awt/Component;Ljava/lang/Object;)é
+ã
+A
+7C:/Users/USER/git/IS2/BestMain/src/gui/infoApuesta.java& &(
+%19javax.swing.JPanel"__id*%*#
+gui.infoApuesta"
+contentPanel÷”
+A
+7C:/Users/USER/git/IS2/BestMain/src/gui/infoApuesta.java& &(
+%20void"7java.awt.Container#setLayout(Ljava/awt/LayoutManager;)V*
+
+%19javax.swing.JPanel*
+""2#setLayout(Ljava/awt/LayoutManager;)Ö
+Ç
+A
+7C:/Users/USER/git/IS2/BestMain/src/gui/infoApuesta.java(/ ((6
+%21domain.Apuesta"__id* *
+gui.infoApuesta"	
+apuestaΩ∫
+A
+7C:/Users/USER/git/IS2/BestMain/src/gui/infoApuesta.java(/ ((F
+%22domain.Pronostico"1domain.Apuesta#getPronostico()Ldomain/Pronostico;*
+
+%21domain.Apuesta2getPronostico()ª∏
+A
+7C:/Users/USER/git/IS2/BestMain/src/gui/infoApuesta.java(/ ((T
+%23domain.Question"0domain.Pronostico#getQuestion()Ldomain/Question;*
+
+%22domain.Pronostico2getQuestion()π∂
+A
+7C:/Users/USER/git/IS2/BestMain/src/gui/infoApuesta.java(/ ((b
+%24java.lang.String"/domain.Question#getQuestion()Ljava/lang/String;*
+
+%23domain.Question2getQuestion()ì
+ê
+A
+7C:/Users/USER/git/IS2/BestMain/src/gui/infoApuesta.java(" ((b
+%25java.lang.String"__concat*
+	Apuesta: *
+
+%24java.lang.Stringtr
+A
+7C:/Users/USER/git/IS2/BestMain/src/gui/infoApuesta.java( ((!
+%26javax.swing.JLabel"javax.swing.JLabelµ
+≤
+A
+7C:/Users/USER/git/IS2/BestMain/src/gui/infoApuesta.java( ((c
+%27".javax.swing.JLabel#<init>(Ljava/lang/String;)V*
+
+%26javax.swing.JLabel*
+
+%25java.lang.Stringå
+â
+A
+7C:/Users/USER/git/IS2/BestMain/src/gui/infoApuesta.java( ((d!
+lblNewLabeljavax.swing.JLabel"__id*
+
+%26javax.swing.JLabel«ƒ
+A
+7C:/Users/USER/git/IS2/BestMain/src/gui/infoApuesta.java) )((
+%28void"#java.awt.Component#setBounds(IIII)V*#
+!
+lblNewLabeljavax.swing.JLabel*2C*2*2º*22setBounds(IIII)é
+ã
+A
+7C:/Users/USER/git/IS2/BestMain/src/gui/infoApuesta.java* *(
+%29javax.swing.JPanel"__id*%*#
+gui.infoApuesta"
+contentPanelÄ˝
+A
+7C:/Users/USER/git/IS2/BestMain/src/gui/infoApuesta.java* *(
+%30java.awt.Component"@java.awt.Container#add(Ljava/awt/Component;)Ljava/awt/Component;*
+
+%29javax.swing.JPanel*#
+!
+lblNewLabeljavax.swing.JLabel2add(Ljava/awt/Component;)vt
+A
+7C:/Users/USER/git/IS2/BestMain/src/gui/infoApuesta.java, ,(
+%31javax.swing.JButton"javax.swing.JButton±
+Æ
+A
+7C:/Users/USER/git/IS2/BestMain/src/gui/infoApuesta.java, ,(2
+%32"/javax.swing.JButton#<init>(Ljava/lang/String;)V*
+
+%31javax.swing.JButton*
+Mas informacionä
+á
+A
+7C:/Users/USER/git/IS2/BestMain/src/gui/infoApuesta.java, ,(3
+btnInfojavax.swing.JButton"__id*
+
+%31javax.swing.JButtonƒ¡
+A
+7C:/Users/USER/git/IS2/BestMain/src/gui/infoApuesta.java- -($
+%33void"#java.awt.Component#setBounds(IIII)V* 
+
+btnInfojavax.swing.JButton*2C*28*2´*22setBounds(IIII)rp
+A
+7C:/Users/USER/git/IS2/BestMain/src/gui/infoApuesta.java.  .(.
+%34gui.infoApuesta$1"gui.infoApuesta$1Ö
+Ç
+A
+7C:/Users/USER/git/IS2/BestMain/src/gui/infoApuesta.java. 4(
+%35"java.lang.Object#<init>()V*
+
+%34gui.infoApuesta$1ïí
+A
+7C:/Users/USER/git/IS2/BestMain/src/gui/infoApuesta.java. 4(
+%36void"Njavax.swing.AbstractButton#addActionListener(Ljava/awt/event/ActionListener;)V* 
+
+btnInfojavax.swing.JButton*
+
+%34gui.infoApuesta$122addActionListener(Ljava/awt/event/ActionListener;)é
+ã
+A
+7C:/Users/USER/git/IS2/BestMain/src/gui/infoApuesta.java5 5(
+%37javax.swing.JPanel"__id*%*#
+gui.infoApuesta"
+contentPanel˝˙
+A
+7C:/Users/USER/git/IS2/BestMain/src/gui/infoApuesta.java5 5(
+%38java.awt.Component"@java.awt.Container#add(Ljava/awt/Component;)Ljava/awt/Component;*
+
+%37javax.swing.JPanel* 
+
+btnInfojavax.swing.JButton2add(Ljava/awt/Component;)vt
+A
+7C:/Users/USER/git/IS2/BestMain/src/gui/infoApuesta.java7 7(!
+%39javax.swing.JButton"javax.swing.JButton≤
+Ø
+A
+7C:/Users/USER/git/IS2/BestMain/src/gui/infoApuesta.java7 7(5
+%40"/javax.swing.JButton#<init>(Ljava/lang/String;)V*
+
+%39javax.swing.JButton*
+Cancelar apuestaå
+â
+A
+7C:/Users/USER/git/IS2/BestMain/src/gui/infoApuesta.java7 7(6 
+	btnCanceljavax.swing.JButton"__id*
+
+%39javax.swing.JButton∆√
+A
+7C:/Users/USER/git/IS2/BestMain/src/gui/infoApuesta.java8 8(&
+%41void"#java.awt.Component#setBounds(IIII)V*"
+ 
+	btnCanceljavax.swing.JButton*2C*2Z*2´*22setBounds(IIII)rp
+A
+7C:/Users/USER/git/IS2/BestMain/src/gui/infoApuesta.java9" 9(0
+%42gui.infoApuesta$2"gui.infoApuesta$2Ö
+Ç
+A
+7C:/Users/USER/git/IS2/BestMain/src/gui/infoApuesta.java9 ?(
+%43"java.lang.Object#<init>()V*
+
+%42gui.infoApuesta$2óî
+A
+7C:/Users/USER/git/IS2/BestMain/src/gui/infoApuesta.java9 ?(
+%44void"Njavax.swing.AbstractButton#addActionListener(Ljava/awt/event/ActionListener;)V*"
+ 
+	btnCanceljavax.swing.JButton*
+
+%42gui.infoApuesta$222addActionListener(Ljava/awt/event/ActionListener;)ë
+é
+A
+7C:/Users/USER/git/IS2/BestMain/src/gui/infoApuesta.java@ @(
+%45domain.User"&gui.LOGIN#getUsuarioAct()Ldomain/User;*"
+	gui.LOGIN*
+3
+1*_
+0 "X
+A
+7C:/Users/USER/git/IS2/BestMain/src/gui/infoApuesta.javaQ Q(
+implicit return*·
+1A
+7C:/Users/USER/git/IS2/BestMain/src/gui/infoApuesta.javaE E("tr
+A
+7C:/Users/USER/git/IS2/BestMain/src/gui/infoApuesta.javaE E( 
+%54javax.swing.JPanel"javax.swing.JPanelà
+Ö
+A
+7C:/Users/USER/git/IS2/BestMain/src/gui/infoApuesta.javaE E("
+%55"javax.swing.JPanel#<init>()V*
+
+%54javax.swing.JPanelã
+à
+A
+7C:/Users/USER/git/IS2/BestMain/src/gui/infoApuesta.javaE E(# 
+
+buttonPanejavax.swing.JPanel"__id*
+
+%54javax.swing.JPanel_
+]
+A
+7C:/Users/USER/git/IS2/BestMain/src/gui/infoApuesta.javaF& F(6
+
+%56int"__id*
+""vt
+A
+7C:/Users/USER/git/IS2/BestMain/src/gui/infoApuesta.javaF F(%
+%57java.awt.FlowLayout"java.awt.FlowLayoutô
+ñ
+A
+7C:/Users/USER/git/IS2/BestMain/src/gui/infoApuesta.javaF F(7
+%58"java.awt.FlowLayout#<init>(I)V*
+
+%57java.awt.FlowLayout*
+
+
+%56intÛ
+A
+7C:/Users/USER/git/IS2/BestMain/src/gui/infoApuesta.javaF F(8
+%59void"7java.awt.Container#setLayout(Ljava/awt/LayoutManager;)V*"
+ 
+
+buttonPanejavax.swing.JPanel*
+
+%57java.awt.FlowLayout2#setLayout(Ljava/awt/LayoutManager;)¬ø
+A
+7C:/Users/USER/git/IS2/BestMain/src/gui/infoApuesta.javaG G(
+%60java.awt.Container"8javax.swing.JDialog#getContentPane()Ljava/awt/Container;*
+gui.infoApuesta2getContentPane()l
+j
+A
+7C:/Users/USER/git/IS2/BestMain/src/gui/infoApuesta.javaG# G(5
+%61java.lang.String"__id*
+""ùö
+A
+7C:/Users/USER/git/IS2/BestMain/src/gui/infoApuesta.javaG G(6
+%62void"?java.awt.Container#add(Ljava/awt/Component;Ljava/lang/Object;)V*
+
+%60java.awt.Container*"
+ 
+
+buttonPanejavax.swing.JPanel*
+
+%61java.lang.String2+add(Ljava/awt/Component;Ljava/lang/Object;)vt
+A
+7C:/Users/USER/git/IS2/BestMain/src/gui/infoApuesta.javaH H( 
+%63javax.swing.JButton"javax.swing.JButton¶
+£
+A
+7C:/Users/USER/git/IS2/BestMain/src/gui/infoApuesta.javaH H((
+%64"/javax.swing.JButton#<init>(Ljava/lang/String;)V*
+
+%63javax.swing.JButton*
+Exitä
+á
+A
+7C:/Users/USER/git/IS2/BestMain/src/gui/infoApuesta.javaH H()
+btnExitjavax.swing.JButton"__id*
+
+%63javax.swing.JButtonrp
+A
+7C:/Users/USER/git/IS2/BestMain/src/gui/infoApuesta.javaI! I(/
+%65gui.infoApuesta$3"gui.infoApuesta$3Ö
+Ç
+A
+7C:/Users/USER/git/IS2/BestMain/src/gui/infoApuesta.javaI O(
+%66"java.lang.Object#<init>()V*
+
+%65gui.infoApuesta$3ïí
+A
+7C:/Users/USER/git/IS2/BestMain/src/gui/infoApuesta.javaI O(
+%67void"Njavax.swing.AbstractButton#addActionListener(Ljava/awt/event/ActionListener;)V* 
+
+btnExitjavax.swing.JButton*
+
+%65gui.infoApuesta$322addActionListener(Ljava/awt/event/ActionListener;)ÑÅ
+A
+7C:/Users/USER/git/IS2/BestMain/src/gui/infoApuesta.javaP P(
+%68java.awt.Component"@java.awt.Container#add(Ljava/awt/Component;)Ljava/awt/Component;*"
+ 
+
+buttonPanejavax.swing.JPanel* 
+
+btnExitjavax.swing.JButton2add(Ljava/awt/Component;)*
+0:
+adomain.ApuestaB
+gui.infoApuesta

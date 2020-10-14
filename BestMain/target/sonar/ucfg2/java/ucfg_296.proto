@@ -1,0 +1,113 @@
+
+IbusinessLogic.BLFacadeImplementation#getProximosEventos()Ljava/util/List;X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.javaè è(-"1*£
+1X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.javaê ê(ÉÄ
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.javaê ê(
+%0java.util.Date"java.util.Dateï
+í
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.javaê ê(
+%1"java.util.Date#<init>()V*
+
+%0java.util.Dateî
+ë
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.javaê ê(
+todayjava.util.Date"__id*
+
+%0java.util.Date≈
+¬
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.javaë ë((
+%2java.util.Calendar"4java.util.Calendar#getInstance()Ljava/util/Calendar;*"
+java.util.Calendarõ
+ò
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.javaë ë()
+tempjava.util.Calendar"__id*
+
+%2java.util.CalendarÏÈ
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.javaí í(
+
+%3void"-java.util.Calendar#setTime(Ljava/util/Date;)V*
+
+tempjava.util.Calendar*
+
+todayjava.util.Date2setTime(Ljava/util/Date;)u
+s
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.javaì ì(	
+%4int"__id*
+""¿Ω
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.javaì ì(
+
+%5void"java.util.Calendar#add(II)V*
+
+tempjava.util.Calendar*
+	
+%4int*2<2add(II) «
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.javaî î(&
+%6java.util.Date",java.util.Calendar#getTime()Ljava/util/Date;*
+
+tempjava.util.Calendar2	getTime()ù
+ö
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.javaî î(' 
+twoMonthsLaterjava.util.Date"__id*
+
+%6java.util.Dateπ
+∂
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.javaï ï(
+%7dataAccess.DataAccess"__id*7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManagerπ∂
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.javaï ï(
+
+%8void"dataAccess.DataAccess#open(Z)V*
+
+%7dataAccess.DataAccess*
+""2open(Z)π
+∂
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.javañ ñ(#
+%9dataAccess.DataAccess"__id*7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager‚ﬂ
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.javañ ñ(K
+%10java.util.List"YdataAccess.DataAccess#getEventsInterval(Ljava/util/Date;Ljava/util/Date;)Ljava/util/List;*
+
+%9dataAccess.DataAccess*
+
+todayjava.util.Date*"
+ 
+twoMonthsLaterjava.util.Date23getEventsInterval(Ljava/util/Date;Ljava/util/Date;)í
+è
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.javañ ñ(L
+evjava.util.List"__id*
+
+%10java.util.List∫
+∑
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.javaó ó(
+%11dataAccess.DataAccess"__id*7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager≥∞
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.javaó ó(
+%12void"dataAccess.DataAccess#close()V*
+
+%11dataAccess.DataAccess2close()"r
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.javaò ò(
+
+evjava.util.ListB(&
+$businessLogic.BLFacadeImplementation

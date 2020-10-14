@@ -1,0 +1,98 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-10-13 12:03:50 #1 store] 
+Database 'C:\Users\USER\git\IS2\BestMain\resources\bets.temp' is opened by 7432@DESKTOP-1O96UFS
+
+[2020-10-13 12:03:50 #2 type.registry] 
+New type domain.Equipo
+
+[2020-10-13 12:03:50 #3 type] 
+Type domain.Equipo is not enhanced.
+
+[2020-10-13 12:03:50 #4 type.registry] 
+New type domain.Event
+
+[2020-10-13 12:03:50 #5 type] 
+Type domain.Event is not enhanced.
+
+[2020-10-13 12:03:50 #6 type.registry] 
+New type domain.Question
+
+[2020-10-13 12:03:50 #7 type] 
+Type domain.Question is not enhanced.
+
+[2020-10-13 12:03:50 #8 type.registry] 
+New type domain.Pronostico
+
+[2020-10-13 12:03:50 #9 type] 
+Type domain.Pronostico is not enhanced.
+
+[2020-10-13 12:03:50 #10 type.registry] 
+New type domain.Apuesta
+
+[2020-10-13 12:03:50 #11 type] 
+Type domain.Apuesta is not enhanced.
+
+[2020-10-13 12:03:50 #12 type.registry] 
+New type domain.User
+
+[2020-10-13 12:03:50 #13 type] 
+Type domain.User is not enhanced.
+
+[2020-10-13 12:03:50 #14 type.registry] 
+New type domain.Ajustes
+
+[2020-10-13 12:03:50 #15 type.registry] 
+New type domain.Notification
+
+[2020-10-13 12:03:50 #16 type.registry] 
+New type domain.Publication
+
+[2020-10-13 12:03:50 #17 type.registry] 
+New type domain.Copia
+
+[2020-10-13 12:03:50 #18 type] 
+Type domain.Ajustes is not enhanced.
+
+[2020-10-13 12:03:50 #19 type] 
+Type domain.Notification is not enhanced.
+
+[2020-10-13 12:03:50 #20 type] 
+Type domain.Publication is not enhanced.
+
+[2020-10-13 12:03:50 #21 type] 
+Type domain.Copia is not enhanced.
+
+[2020-10-13 12:03:50 #22 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2020-10-13 12:03:50 #23 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2020-10-13 12:03:50 #24 type.registry] 
+New type java.util.ArrayList<java.lang.String>
+
+[2020-10-13 12:03:50 #25 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2020-10-13 12:03:50 #26 type.registry] 
+New type java.util.Vector<domain.Pronostico>
+
+[2020-10-13 12:03:50 #27 type.registry] 
+New type java.util.Vector<domain.Copia>
+
+[2020-10-13 12:03:50 #28 type.registry] 
+New type java.util.ArrayList<domain.Apuesta>
+
+[2020-10-13 12:03:50 #29 type.registry] 
+New type java.util.ArrayList<domain.Publication>
+
+[2020-10-13 12:03:50 #30 type.registry] 
+New type java.util.ArrayList<domain.Notification>
+
+[2020-10-13 12:03:50 #31 type.registry] 
+New type java.util.ArrayList<domain.User>
+
+[2020-10-13 12:03:50 #32 type.registry] 
+New type java.util.Vector<domain.Apuesta>
+

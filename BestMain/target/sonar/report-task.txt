@@ -1,0 +1,7 @@
+organization=aimarciosco
+projectKey=Aimarcio_BetsIS2
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.13304
+dashboardUrl=https://sonarcloud.io/dashboard?id=Aimarcio_BetsIS2
+ceTaskId=AXUmZ4AT64jZLqsLzeh3
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AXUmZ4AT64jZLqsLzeh3

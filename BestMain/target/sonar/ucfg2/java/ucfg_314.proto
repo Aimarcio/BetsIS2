@@ -1,0 +1,89 @@
+
+gbusinessLogic.BLFacadeImplementation#publicar(Ljava/lang/String;Ljava/lang/String;)Ldomain/Publication;X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.java“ “("startingBlock*â
+startingBlockX
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.java“ “(9¨
+¥
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.java’ ’(
+%6"
+__annotate*
+javax.jws.WebMethod*
+
+usernamejava.lang.String‘
+Ž
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.java“$ “(,
+usernamejava.lang.String"__annotation*
+
+%6£
+ 
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.java’ ’(
+%7"
+__annotate*
+javax.jws.WebMethod*
+
+msgjava.lang.StringŒ
+‰
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.java“5 “(8
+msgjava.lang.String"__annotation*
+
+%7*
+1*ñ
+1X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.java” ”(¹
+¶
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.java” ”(
+%0dataAccess.DataAccess"__id*7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager¹¶
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.java” ”(
+
+%1void"dataAccess.DataAccess#open(Z)V*
+
+%0dataAccess.DataAccess*
+""2open(Z)¹
+¶
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.java• •(
+%2dataAccess.DataAccess"__id*7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManagerÛØ
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.java• •(3
+%3domain.Publication"XdataAccess.DataAccess#publicar(Ljava/lang/String;Ljava/lang/String;)Ldomain/Publication;*
+
+%2dataAccess.DataAccess*
+
+usernamejava.lang.String*
+
+msgjava.lang.String2.publicar(Ljava/lang/String;Ljava/lang/String;)˜
+•
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.java• •(4
+pdomain.Publication"__id*
+
+%3domain.Publication¹
+¶
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.java– –(
+%4dataAccess.DataAccess"__id*7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager±®
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.java– –(
+
+%5void"dataAccess.DataAccess#close()V*
+
+%4dataAccess.DataAccess2close()"u
+X
+LC:/Users/USER/git/IS2/BestMain/src/businessLogic/BLFacadeImplementation.java— —(
+
+pdomain.Publication:
+usernamejava.lang.String:
+msgjava.lang.StringB(&
+$businessLogic.BLFacadeImplementation

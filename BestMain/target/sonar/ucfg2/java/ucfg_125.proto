@@ -1,0 +1,25 @@
+
+?dataAccess.DataAccess#findUser(Ljava/lang/String;)Ldomain/User;I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaÙ Ù("1*Ž
+1I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaÚ	 Ú(ž
+›
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaÚ	 Ú(%
+%0javax.persistence.EntityManager"__id*!*
+dataAccess.DataAccess"
+dbº·
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaÚ	 Ú(&
+%1domain.User"[javax.persistence.EntityManager#find(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;*'
+%
+%0javax.persistence.EntityManager*
+""*
+
+usernamejava.lang.String2)find(Ljava/lang/Class;Ljava/lang/Object;)"`
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaÚ Ú('
+
+%1domain.User:
+usernamejava.lang.StringB
+dataAccess.DataAccess

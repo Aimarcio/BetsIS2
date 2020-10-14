@@ -1,0 +1,50 @@
+
+YdataAccess.DataAccess#getEventsInterval(Ljava/util/Date;Ljava/util/Date;)Ljava/util/List;I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.java¬ ¬(,"1*ç
+1I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.java­ ­(
+›
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.java­ ­(%
+%0javax.persistence.EntityManager"__id*!*
+dataAccess.DataAccess"
+dbŒ
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.java­ ®(d"
+%1javax.persistence.TypedQuery"njavax.persistence.EntityManager#createQuery(Ljava/lang/String;Ljava/lang/Class;)Ljavax/persistence/TypedQuery;*'
+%
+%0javax.persistence.EntityManager*HF
+DSELECT ev FROM Event ev WHERE ev.eventDate>= ?1 and ev.eventDate< ?2*
+""20createQuery(Ljava/lang/String;Ljava/lang/Class;)¡
+
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.java­ ®(e%
+queryjavax.persistence.TypedQuery"__id*$
+"
+%1javax.persistence.TypedQuery½º
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.java¯ ¯("
+%2javax.persistence.TypedQuery"\javax.persistence.TypedQuery#setParameter(ILjava/lang/Object;)Ljavax/persistence/TypedQuery;*'
+%
+queryjavax.persistence.TypedQuery*2*
+
+startjava.util.Date2!setParameter(ILjava/lang/Object;)»¸
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.java° °("
+%3javax.persistence.TypedQuery"\javax.persistence.TypedQuery#setParameter(ILjava/lang/Object;)Ljavax/persistence/TypedQuery;*'
+%
+queryjavax.persistence.TypedQuery*2*
+
+endjava.util.Date2!setParameter(ILjava/lang/Object;)ÜÙ
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.java±	 ±(
+%4java.util.List"<javax.persistence.TypedQuery#getResultList()Ljava/util/List;*'
+%
+queryjavax.persistence.TypedQuery2getResultList()"c
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.java± ±(
+
+%4java.util.List:
+startjava.util.Date:
+endjava.util.DateB
+dataAccess.DataAccess

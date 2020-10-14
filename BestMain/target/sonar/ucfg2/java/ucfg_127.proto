@@ -1,0 +1,137 @@
+
+qdataAccess.DataAccess#createEvent(Ljava/lang/String;Ljava/util/Date;Ldomain/Equipo;Ldomain/Equipo;)Ldomain/Event;I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaè è("1*»
+1I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaé é(v
+t
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaé é(
+%0java.io.PrintStream"__id*
+""Ã
+À
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaé é(O
+%1java.lang.String"__concat*.,
+*>> DataAccess: createEvent=> description= *!
+
+descriptionjava.lang.String—
+”
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaé é([
+%2java.lang.String"__concat*
+
+%1java.lang.String*	
+ date= ¤
+¡
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaé é(b
+%3java.lang.String"__concat*
+
+%2java.lang.String*
+
+datojava.util.DateàÝ
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaé é(c
+
+%4void"0java.io.PrintStream#println(Ljava/lang/String;)V*
+
+%0java.io.PrintStream*
+
+%3java.lang.String2println(Ljava/lang/String;)ž
+›
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaê ê(%
+%5javax.persistence.EntityManager"__id*!*
+dataAccess.DataAccess"
+db‹ˆ
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaê ê()
+%6#javax.persistence.EntityTransaction"Ujavax.persistence.EntityManager#getTransaction()Ljavax/persistence/EntityTransaction;*'
+%
+%5javax.persistence.EntityManager2getTransaction()¾»
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaê ê(
+
+%7void",javax.persistence.EntityTransaction#begin()V*+
+)
+%6#javax.persistence.EntityTransaction2begin()om
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaë ë(
+%8domain.Event"domain.Event¯
+¬
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaë ë(1
+%9"Vdomain.Event#<init>(Ljava/lang/String;Ljava/util/Date;Ldomain/Equipo;Ldomain/Equipo;)V*
+
+%8domain.Event*!
+
+descriptionjava.lang.String*
+
+datojava.util.Date*
+
+eq1domain.Equipo*
+
+eq2domain.Equipo}
+{
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaë ë(2
+evdomain.Event"__id*
+
+%8domain.EventŸ
+œ
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaì ì(&
+%10javax.persistence.EntityManager"__id*!*
+dataAccess.DataAccess"
+dböó
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaì ì(
+%11void"<javax.persistence.EntityManager#persist(Ljava/lang/Object;)V*(
+&
+%10javax.persistence.EntityManager*
+
+evdomain.Event2persist(Ljava/lang/Object;)Ÿ
+œ
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaí í(&
+%12javax.persistence.EntityManager"__id*!*
+dataAccess.DataAccess"
+dbŠ
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaí í(*
+%13#javax.persistence.EntityTransaction"Ujavax.persistence.EntityManager#getTransaction()Ljavax/persistence/EntityTransaction;*(
+&
+%12javax.persistence.EntityManager2getTransaction()Â¿
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaí í(
+%14void"-javax.persistence.EntityTransaction#commit()V*,
+*
+%13#javax.persistence.EntityTransaction2commit()w
+u
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaî î(
+%15java.io.PrintStream"__id*
+""¢
+Ÿ
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaî î(,
+%16java.lang.String"__concat*
+evento aÃ¯Â¿Â½adido: *
+
+evdomain.Eventãà
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaî î(-
+%17void"0java.io.PrintStream#println(Ljava/lang/String;)V*
+
+%15java.io.PrintStream*
+
+%16java.lang.String2println(Ljava/lang/String;)"a
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaï ï(
+
+evdomain.Event:
+descriptionjava.lang.String:
+datojava.util.Date:
+eq1domain.Equipo:
+eq2domain.EquipoB
+dataAccess.DataAccess

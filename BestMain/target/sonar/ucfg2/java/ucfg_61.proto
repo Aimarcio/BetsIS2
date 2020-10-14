@@ -1,0 +1,44 @@
+
+'domain.Event#compareTo(Ldomain/Event;)I@
+4C:/Users/USER/git/IS2/BestMain/src/domain/Event.java¡ ¡("startingBlock*Ì
+startingBlock@
+4C:/Users/USER/git/IS2/BestMain/src/domain/Event.java¡ ¡( „
+
+@
+4C:/Users/USER/git/IS2/BestMain/src/domain/Event.java   (
+
+%3"
+__annotate*
+java.lang.Override*
+
+edomain.Eventm
+k
+@
+4C:/Users/USER/git/IS2/BestMain/src/domain/Event.java¡ ¡(
+edomain.Event"__annotation*
+
+%3*
+1*»
+1@
+4C:/Users/USER/git/IS2/BestMain/src/domain/Event.java¢ ¢(ª§
+@
+4C:/Users/USER/git/IS2/BestMain/src/domain/Event.java¢ ¢(
+%0java.util.Date"+domain.Event#getEventDate()Ljava/util/Date;*
+domain.Event2getEventDate()­ª
+@
+4C:/Users/USER/git/IS2/BestMain/src/domain/Event.java¢% ¢(5
+%1java.util.Date"+domain.Event#getEventDate()Ljava/util/Date;*
+
+edomain.Event2getEventDate()ÊÇ
+@
+4C:/Users/USER/git/IS2/BestMain/src/domain/Event.java¢ ¢(6	
+%2int"+java.util.Date#compareTo(Ljava/util/Date;)I*
+
+%0java.util.Date*
+
+%1java.util.Date2compareTo(Ljava/util/Date;)"J
+@
+4C:/Users/USER/git/IS2/BestMain/src/domain/Event.java¢ ¢(7
+"":
+edomain.EventB
+domain.Event

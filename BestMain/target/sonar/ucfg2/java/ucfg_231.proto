@@ -1,0 +1,66 @@
+
++domain.Ajustes#toString()Ljava/lang/String;@
+6C:/Users/USER/git/IS2/BestMain/src/domain/Ajustes.javaT T("1*¡
+
+1@
+6C:/Users/USER/git/IS2/BestMain/src/domain/Ajustes.javaU	 U(0ö
+ó
+@
+6C:/Users/USER/git/IS2/BestMain/src/domain/Ajustes.javaU	 U(N
+%0java.lang.String"__concat*)'
+%Ajustes [notificacionesPublicaciones=*
+""ü
+ú
+@
+6C:/Users/USER/git/IS2/BestMain/src/domain/Ajustes.javaU	 U(k
+%1java.lang.String"__concat*
+
+%0java.lang.String*
+, notificacionesApuesta=â
+Ü
+@
+6C:/Users/USER/git/IS2/BestMain/src/domain/Ajustes.javaU	 V(
+%2java.lang.String"__concat*
+
+%1java.lang.String*
+""ê
+ç
+@
+6C:/Users/USER/git/IS2/BestMain/src/domain/Ajustes.javaU	 V()
+%3java.lang.String"__concat*
+
+%2java.lang.String*
+	, perfil=â
+Ü
+@
+6C:/Users/USER/git/IS2/BestMain/src/domain/Ajustes.javaU	 V(2
+%4java.lang.String"__concat*
+
+%3java.lang.String*
+""ö
+ó
+@
+6C:/Users/USER/git/IS2/BestMain/src/domain/Ajustes.javaU	 V(J
+%5java.lang.String"__concat*
+
+%4java.lang.String*
+, apuestasprivadas=â
+Ü
+@
+6C:/Users/USER/git/IS2/BestMain/src/domain/Ajustes.javaU	 V(]
+%6java.lang.String"__concat*
+
+%5java.lang.String*
+""à
+Ö
+@
+6C:/Users/USER/git/IS2/BestMain/src/domain/Ajustes.javaU	 V(c
+%7java.lang.String"__concat*
+
+%6java.lang.String*
+]"\
+@
+6C:/Users/USER/git/IS2/BestMain/src/domain/Ajustes.javaU V(d
+
+%7java.lang.StringB
+domain.Ajustes

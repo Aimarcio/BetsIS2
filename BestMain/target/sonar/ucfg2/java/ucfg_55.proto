@@ -1,0 +1,68 @@
+
+)domain.Event#toString()Ljava/lang/String;>
+4C:/Users/USER/git/IS2/BestMain/src/domain/Event.javab b("1*Ê
+1>
+4C:/Users/USER/git/IS2/BestMain/src/domain/Event.javac	 c(|
+z
+>
+4C:/Users/USER/git/IS2/BestMain/src/domain/Event.javac	 c(
+%0domain.Equipo"__id**
+domain.Event"	
+equipo1¬©
+>
+4C:/Users/USER/git/IS2/BestMain/src/domain/Event.javac	 c(
+%1java.lang.String"+domain.Equipo#getNombre()Ljava/lang/String;*
+
+%0domain.Equipo2getNombre()†
+ƒ
+>
+4C:/Users/USER/git/IS2/BestMain/src/domain/Event.javac	 c( 
+%2java.lang.String"__concat*
+
+%1java.lang.String*
+-|
+z
+>
+4C:/Users/USER/git/IS2/BestMain/src/domain/Event.javac! c((
+%3domain.Equipo"__id**
+domain.Event"	
+equipo2¬©
+>
+4C:/Users/USER/git/IS2/BestMain/src/domain/Event.javac! c(4
+%4java.lang.String"+domain.Equipo#getNombre()Ljava/lang/String;*
+
+%3domain.Equipo2getNombre()™
+–
+>
+4C:/Users/USER/git/IS2/BestMain/src/domain/Event.javac	 c(4
+%5java.lang.String"__concat*
+
+%2java.lang.String*
+
+%4java.lang.String†
+ƒ
+>
+4C:/Users/USER/git/IS2/BestMain/src/domain/Event.javac	 c(8
+%6java.lang.String"__concat*
+
+%5java.lang.String*
+ „
+
+>
+4C:/Users/USER/git/IS2/BestMain/src/domain/Event.javac9 c(D
+%7java.lang.String"__id*!*
+domain.Event"
+description™
+–
+>
+4C:/Users/USER/git/IS2/BestMain/src/domain/Event.javac	 c(D
+%8java.lang.String"__concat*
+
+%6java.lang.String*
+
+%7java.lang.String"Z
+>
+4C:/Users/USER/git/IS2/BestMain/src/domain/Event.javac c(E
+
+%8java.lang.StringB
+domain.Event

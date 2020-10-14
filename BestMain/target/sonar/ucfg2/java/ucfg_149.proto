@@ -1,0 +1,60 @@
+
+IdataAccess.DataAccess#getPublications(Ljava/lang/String;)Ljava/util/List;I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaü ü()"5*í
+2I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaþ þ(”
+‘
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaþ þ(
+%3domain.Publication"
+__arrayGet*
+
+%2java.util.List*
+""*
+2
+1*’
+4I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaþ þ(¼¹
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaþ þ(*
+%2java.util.List".domain.User#getPublicaciones()Ljava/util/List;*
+
+udomain.User2getPublicaciones()*
+2*­
+5I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaý ý(ž
+›
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaý ý(%
+%0javax.persistence.EntityManager"__id*!*
+dataAccess.DataAccess"
+dbº·
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaý ý((
+%1domain.User"[javax.persistence.EntityManager#find(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;*'
+%
+%0javax.persistence.EntityManager*
+""*
+
+usernamejava.lang.String2)find(Ljava/lang/Class;Ljava/lang/Object;)z
+x
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaý ý()
+udomain.User"__id*
+
+%1domain.User*
+4*ò
+1I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaÿ	 ÿ(
+¼¹
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaÿ	 ÿ(
+%4java.util.List".domain.User#getPublicaciones()Ljava/util/List;*
+
+udomain.User2getPublicaciones()"c
+I
+=C:/Users/USER/git/IS2/BestMain/src/dataAccess/DataAccess.javaÿ ÿ(
+
+%4java.util.List:
+usernamejava.lang.StringB
+dataAccess.DataAccess

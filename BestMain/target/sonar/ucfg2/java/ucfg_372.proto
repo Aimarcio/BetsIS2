@@ -1,0 +1,81 @@
+
+!gui.MiCuenta#areUnsavedChanges()Z@
+4C:/Users/USER/git/IS2/BestMain/src/gui/MiCuenta.javaÑ Ñ(""1*√
+1@
+4C:/Users/USER/git/IS2/BestMain/src/gui/MiCuenta.javaÖ
+ Ö(ç
+ä
+@
+4C:/Users/USER/git/IS2/BestMain/src/gui/MiCuenta.javaÖ
+ Ö(
+%0javax.swing.JTextField"__id*"* 
+gui.MiCuenta"
+textUsername¢ü
+@
+4C:/Users/USER/git/IS2/BestMain/src/gui/MiCuenta.javaÖ
+ Ö("
+%1boolean"java.awt.Component#isVisible()Z*
+
+%0javax.swing.JTextField2isVisible()ã
+à
+@
+4C:/Users/USER/git/IS2/BestMain/src/gui/MiCuenta.javaÖ$ Ö(.
+%2javax.swing.JTextField"__id* *
+gui.MiCuenta"
+
+textNombre¢ü
+@
+4C:/Users/USER/git/IS2/BestMain/src/gui/MiCuenta.javaÖ$ Ö(:
+%3boolean"java.awt.Component#isVisible()Z*
+
+%2javax.swing.JTextField2isVisible()â
+Ü
+@
+4C:/Users/USER/git/IS2/BestMain/src/gui/MiCuenta.javaÖ< Ö(D
+%4javax.swing.JTextField"__id**
+gui.MiCuenta"
+
+textApe1¢ü
+@
+4C:/Users/USER/git/IS2/BestMain/src/gui/MiCuenta.javaÖ< Ö(P
+%5boolean"java.awt.Component#isVisible()Z*
+
+%4javax.swing.JTextField2isVisible()â
+Ü
+@
+4C:/Users/USER/git/IS2/BestMain/src/gui/MiCuenta.javaÖR Ö(Z
+%6javax.swing.JTextField"__id**
+gui.MiCuenta"
+
+textApe2¢ü
+@
+4C:/Users/USER/git/IS2/BestMain/src/gui/MiCuenta.javaÖR Ö(f
+%7boolean"java.awt.Component#isVisible()Z*
+
+%6javax.swing.JTextField2isVisible()à
+Ö
+@
+4C:/Users/USER/git/IS2/BestMain/src/gui/MiCuenta.javaÖh Ö(o
+%8javax.swing.JTextField"__id**
+gui.MiCuenta"	
+textDNI¢ü
+@
+4C:/Users/USER/git/IS2/BestMain/src/gui/MiCuenta.javaÖh Ö({
+%9boolean"java.awt.Component#isVisible()Z*
+
+%8javax.swing.JTextField2isVisible()å
+â
+A
+4C:/Users/USER/git/IS2/BestMain/src/gui/MiCuenta.javaÖ} Ö(Ü
+%10javax.swing.JTextField"__id**
+gui.MiCuenta"
+	textEmail•¢
+A
+4C:/Users/USER/git/IS2/BestMain/src/gui/MiCuenta.javaÖ} Ö(í
+%11boolean"java.awt.Component#isVisible()Z*
+
+%10javax.swing.JTextField2isVisible()"K
+A
+4C:/Users/USER/git/IS2/BestMain/src/gui/MiCuenta.javaÖ Ö(î
+""B
+gui.MiCuenta

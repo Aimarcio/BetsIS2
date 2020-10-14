@@ -1,0 +1,16 @@
+
++domain.Event#getEventDate()Ljava/util/Date;>
+4C:/Users/USER/git/IS2/BestMain/src/domain/Event.javaH H("1*ž
+1>
+4C:/Users/USER/git/IS2/BestMain/src/domain/Event.javaI	 I(
+}
+>
+4C:/Users/USER/git/IS2/BestMain/src/domain/Event.javaI	 I(
+%0java.util.Date"__id**
+domain.Event"
+	eventDate"X
+>
+4C:/Users/USER/git/IS2/BestMain/src/domain/Event.javaI I(
+
+%0java.util.DateB
+domain.Event

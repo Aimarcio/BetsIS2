@@ -1,0 +1,66 @@
+
+0domain.Notification#toString()Ljava/lang/String;E
+;C:/Users/USER/git/IS2/BestMain/src/domain/Notification.java8 8("1*Â
+
+1E
+;C:/Users/USER/git/IS2/BestMain/src/domain/Notification.java9	 9(!é
+ã
+E
+;C:/Users/USER/git/IS2/BestMain/src/domain/Notification.java9$ 9(+
+%0java.lang.String"__id*$*"
+domain.Notification"	
+message¢
+ü
+E
+;C:/Users/USER/git/IS2/BestMain/src/domain/Notification.java9	 9(+
+%1java.lang.String"__concat*
+Notification [message=*
+
+%0java.lang.Stringï
+í
+E
+;C:/Users/USER/git/IS2/BestMain/src/domain/Notification.java9	 9(9
+%2java.lang.String"__concat*
+
+%1java.lang.String*
+	, titulo=ç
+ä
+E
+;C:/Users/USER/git/IS2/BestMain/src/domain/Notification.java9< 9(B
+%3java.lang.String"__id*#*!
+domain.Notification"
+titulo†
+ù
+E
+;C:/Users/USER/git/IS2/BestMain/src/domain/Notification.java9	 9(B
+%4java.lang.String"__concat*
+
+%2java.lang.String*
+
+%3java.lang.Stringì
+ê
+E
+;C:/Users/USER/git/IS2/BestMain/src/domain/Notification.java9	 9(N
+%5java.lang.String"__concat*
+
+%4java.lang.String*	
+, read=é
+ã
+E
+;C:/Users/USER/git/IS2/BestMain/src/domain/Notification.java9	 9(U
+%6java.lang.String"__concat*
+
+%5java.lang.String*
+""ç
+ä
+E
+;C:/Users/USER/git/IS2/BestMain/src/domain/Notification.java9	 9([
+%7java.lang.String"__concat*
+
+%6java.lang.String*
+]"a
+E
+;C:/Users/USER/git/IS2/BestMain/src/domain/Notification.java9 9(\
+
+%7java.lang.StringB
+domain.Notification

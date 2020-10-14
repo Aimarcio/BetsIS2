@@ -1,0 +1,92 @@
+
+(domain.Event#equals(Ljava/lang/Object;)Z@
+4C:/Users/USER/git/IS2/BestMain/src/domain/Event.javaë ë("startingBlock*ë
+2@
+4C:/Users/USER/git/IS2/BestMain/src/domain/Event.javaö
+ ö("J
+@
+4C:/Users/USER/git/IS2/BestMain/src/domain/Event.javaö ö(
+""*Ê
+3@
+4C:/Users/USER/git/IS2/BestMain/src/domain/Event.javaò ò(|
+z
+@
+4C:/Users/USER/git/IS2/BestMain/src/domain/Event.javaò ò(
+otherdomain.Event"__id*
+
+objjava.lang.Objectá
+Ñ
+@
+4C:/Users/USER/git/IS2/BestMain/src/domain/Event.javaô ô(
+%2java.lang.Integer"__id*!*
+domain.Event"
+eventNumberé
+ã
+@
+4C:/Users/USER/git/IS2/BestMain/src/domain/Event.javaô ô(&
+%3java.lang.Integer"__id*(*&
+
+otherdomain.Event"
+eventNumber*
+2
+1*ﬁ
+startingBlock@
+4C:/Users/USER/git/IS2/BestMain/src/domain/Event.javaë ë("ä
+á
+@
+4C:/Users/USER/git/IS2/BestMain/src/domain/Event.javaê ê(
+
+%4"
+__annotate*
+java.lang.Override*
+
+objjava.lang.Objects
+q
+@
+4C:/Users/USER/git/IS2/BestMain/src/domain/Event.javaë ë(!
+objjava.lang.Object"__annotation*
+
+%4*	
+5
+6
+8*ë
+4@
+4C:/Users/USER/git/IS2/BestMain/src/domain/Event.javaó
+ ó("J
+@
+4C:/Users/USER/git/IS2/BestMain/src/domain/Event.javaó ó(
+""*¨
+5@
+4C:/Users/USER/git/IS2/BestMain/src/domain/Event.javañ ñ(®•
+@
+4C:/Users/USER/git/IS2/BestMain/src/domain/Event.javañ ñ(
+%0java.lang.Class",java.lang.Object#getClass()Ljava/lang/Class;*
+domain.Event2
+getClass()±Æ
+@
+4C:/Users/USER/git/IS2/BestMain/src/domain/Event.javañ ñ("
+%1java.lang.Class",java.lang.Object#getClass()Ljava/lang/Class;*
+
+objjava.lang.Object2
+getClass()*
+3
+4*ë
+6@
+4C:/Users/USER/git/IS2/BestMain/src/domain/Event.javaï
+ ï("J
+@
+4C:/Users/USER/git/IS2/BestMain/src/domain/Event.javaï ï(
+""*ë
+8@
+4C:/Users/USER/git/IS2/BestMain/src/domain/Event.javaì
+ ì("J
+@
+4C:/Users/USER/git/IS2/BestMain/src/domain/Event.javaì ì(
+""*ë
+1@
+4C:/Users/USER/git/IS2/BestMain/src/domain/Event.javaõ	 õ("J
+@
+4C:/Users/USER/git/IS2/BestMain/src/domain/Event.javaõ õ(
+"":
+objjava.lang.ObjectB
+domain.Event
