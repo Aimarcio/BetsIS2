@@ -32,8 +32,8 @@ import exceptions.*;
  * It implements the data access to the objectDb database
  */
 public class DataAccess {
-	protected static EntityManager db;
-	protected static EntityManagerFactory emf;
+	private static EntityManager db;
+	private static EntityManagerFactory emf;
 
 	ConfigXML c;
 
@@ -91,6 +91,10 @@ public class DataAccess {
 
 			db = emf.createEntityManager();
 		}
+	}
+	
+	public void setDB(EntityManager DataBase) {
+		db = DataBase;
 	}
 	/**
 	 * This is the data access method that initializes the database with some events

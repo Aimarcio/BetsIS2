@@ -281,13 +281,13 @@ public class BLFacadeImplementation implements BLFacade {
 	}
 	@WebMethod
 	public void apostar(User u, Pronostico p, int cantidad) throws ObjectNotFound,InsufficientPoints, EventFinished{
-		dbManager.open (false);
+		dbManager.open(false);
 		dbManager.apostar(u, p, cantidad,new Vector<User>());
 		dbManager.close();
 	}
 	@WebMethod
 	public void borrarPregunta(Question q) {
-		dbManager.open (false);
+		dbManager.open(false);
 		dbManager.borrarPregunta(q);
 		dbManager.close();
 	}
