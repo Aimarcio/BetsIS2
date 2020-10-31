@@ -1,0 +1,1732 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-10-20 12:33:59 #1 store] 
+Database 'C:\Users\USER\git\IS2\BestMain\resources\bets.temp' is opened by 11308@DESKTOP-1O96UFS
+
+[2020-10-20 12:34:00 #2 type.registry] 
+New type domain.User
+
+[2020-10-20 12:34:00 #3 type] 
+Type domain.User is not enhanced.
+
+[2020-10-20 12:34:00 #4 type.registry] 
+New type domain.Ajustes
+
+[2020-10-20 12:34:00 #5 type.registry] 
+New type domain.Notification
+
+[2020-10-20 12:34:00 #6 type.registry] 
+New type domain.Publication
+
+[2020-10-20 12:34:00 #7 type.registry] 
+New type domain.Apuesta
+
+[2020-10-20 12:34:00 #8 type.registry] 
+New type domain.Copia
+
+[2020-10-20 12:34:00 #9 type] 
+Type domain.Ajustes is not enhanced.
+
+[2020-10-20 12:34:00 #10 type] 
+Type domain.Notification is not enhanced.
+
+[2020-10-20 12:34:00 #11 type] 
+Type domain.Publication is not enhanced.
+
+[2020-10-20 12:34:00 #12 type] 
+Type domain.Apuesta is not enhanced.
+
+[2020-10-20 12:34:00 #13 type.registry] 
+New type domain.Pronostico
+
+[2020-10-20 12:34:00 #14 type] 
+Type domain.Copia is not enhanced.
+
+[2020-10-20 12:34:00 #15 type] 
+Type domain.Pronostico is not enhanced.
+
+[2020-10-20 12:34:00 #16 type.registry] 
+New type domain.Question
+
+[2020-10-20 12:34:00 #17 type] 
+Type domain.Question is not enhanced.
+
+[2020-10-20 12:34:00 #18 type.registry] 
+New type domain.Event
+
+[2020-10-20 12:34:00 #19 type] 
+Type domain.Event is not enhanced.
+
+[2020-10-20 12:34:00 #20 type.registry] 
+New type domain.Equipo
+
+[2020-10-20 12:34:00 #21 type] 
+Type domain.Equipo is not enhanced.
+
+[2020-10-20 12:34:00 #22 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2020-10-20 12:34:00 #23 type.registry] 
+New type java.util.ArrayList<domain.Apuesta>
+
+[2020-10-20 12:34:00 #24 type.registry] 
+New type java.util.ArrayList<domain.Question>
+
+[2020-10-20 12:34:00 #25 type.registry] 
+New type java.util.ArrayList<domain.Pronostico>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-10-20 12:34:17 #1 store] 
+Database 'C:\Users\USER\git\IS2\BestMain\resources\bets.temp' is opened by 13168@DESKTOP-1O96UFS
+
+[2020-10-20 12:34:18 #2 type.registry] 
+New type domain.Question
+
+[2020-10-20 12:34:18 #3 type] 
+Type domain.Question is not enhanced.
+
+[2020-10-20 12:34:18 #4 type.registry] 
+New type domain.Event
+
+[2020-10-20 12:34:18 #5 type.registry] 
+New type domain.Pronostico
+
+[2020-10-20 12:34:18 #6 type] 
+Type domain.Event is not enhanced.
+
+[2020-10-20 12:34:18 #7 type.registry] 
+New type domain.Equipo
+
+[2020-10-20 12:34:18 #8 type] 
+Type domain.Pronostico is not enhanced.
+
+[2020-10-20 12:34:18 #9 type.registry] 
+New type domain.Apuesta
+
+[2020-10-20 12:34:18 #10 type] 
+Type domain.Equipo is not enhanced.
+
+[2020-10-20 12:34:18 #11 type] 
+Type domain.Apuesta is not enhanced.
+
+[2020-10-20 12:34:18 #12 type.registry] 
+New type domain.User
+
+[2020-10-20 12:34:18 #13 type] 
+Type domain.User is not enhanced.
+
+[2020-10-20 12:34:18 #14 type.registry] 
+New type domain.Ajustes
+
+[2020-10-20 12:34:18 #15 type.registry] 
+New type domain.Notification
+
+[2020-10-20 12:34:18 #16 type.registry] 
+New type domain.Publication
+
+[2020-10-20 12:34:18 #17 type.registry] 
+New type domain.Copia
+
+[2020-10-20 12:34:18 #18 type] 
+Type domain.Ajustes is not enhanced.
+
+[2020-10-20 12:34:18 #19 type] 
+Type domain.Notification is not enhanced.
+
+[2020-10-20 12:34:18 #20 type] 
+Type domain.Publication is not enhanced.
+
+[2020-10-20 12:34:18 #21 type] 
+Type domain.Copia is not enhanced.
+
+[2020-10-20 12:34:18 #22 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2020-10-20 12:34:18 #23 type.registry] 
+New type java.util.ArrayList<domain.Pronostico>
+
+[2020-10-20 12:34:18 #24 type.registry] 
+New type java.util.ArrayList<domain.Question>
+
+[2020-10-20 12:34:18 #25 type.registry] 
+New type java.util.ArrayList<domain.Apuesta>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-10-20 12:34:19 #1 store] 
+Database 'C:\Users\USER\git\IS2\BestMain\resources\bets.temp' is opened by 11060@DESKTOP-1O96UFS
+
+[2020-10-20 12:34:19 #2 type.registry] 
+New type domain.Question
+
+[2020-10-20 12:34:19 #3 type] 
+Type domain.Question is not enhanced.
+
+[2020-10-20 12:34:19 #4 type.registry] 
+New type domain.Event
+
+[2020-10-20 12:34:19 #5 type.registry] 
+New type domain.Pronostico
+
+[2020-10-20 12:34:19 #6 type] 
+Type domain.Event is not enhanced.
+
+[2020-10-20 12:34:19 #7 type.registry] 
+New type domain.Equipo
+
+[2020-10-20 12:34:19 #8 type] 
+Type domain.Pronostico is not enhanced.
+
+[2020-10-20 12:34:19 #9 type.registry] 
+New type domain.Apuesta
+
+[2020-10-20 12:34:19 #10 type] 
+Type domain.Equipo is not enhanced.
+
+[2020-10-20 12:34:19 #11 type] 
+Type domain.Apuesta is not enhanced.
+
+[2020-10-20 12:34:19 #12 type.registry] 
+New type domain.User
+
+[2020-10-20 12:34:19 #13 type] 
+Type domain.User is not enhanced.
+
+[2020-10-20 12:34:19 #14 type.registry] 
+New type domain.Ajustes
+
+[2020-10-20 12:34:19 #15 type.registry] 
+New type domain.Notification
+
+[2020-10-20 12:34:19 #16 type.registry] 
+New type domain.Publication
+
+[2020-10-20 12:34:19 #17 type.registry] 
+New type domain.Copia
+
+[2020-10-20 12:34:19 #18 type] 
+Type domain.Ajustes is not enhanced.
+
+[2020-10-20 12:34:19 #19 type] 
+Type domain.Notification is not enhanced.
+
+[2020-10-20 12:34:19 #20 type] 
+Type domain.Publication is not enhanced.
+
+[2020-10-20 12:34:19 #21 type] 
+Type domain.Copia is not enhanced.
+
+[2020-10-20 12:34:19 #22 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2020-10-20 12:34:19 #23 type.registry] 
+New type java.util.ArrayList<domain.Pronostico>
+
+[2020-10-20 12:34:19 #24 type.registry] 
+New type java.util.ArrayList<domain.Question>
+
+[2020-10-20 12:34:19 #25 type.registry] 
+New type java.util.ArrayList<domain.Apuesta>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-10-20 12:44:27 #1 store] 
+Database 'C:\Users\USER\git\IS2\BestMain\resources\bets.temp' has been recovered (tr. 1-15)
+
+[2020-10-20 12:44:27 #2 store] 
+Database 'C:\Users\USER\git\IS2\BestMain\resources\bets.temp' is opened by 13528@DESKTOP-1O96UFS
+
+[2020-10-20 12:44:27 #3 type] 
+Type domain.Question is not enhanced.
+
+[2020-10-20 12:44:27 #4 type] 
+Type domain.Event is not enhanced.
+
+[2020-10-20 12:44:27 #5 type] 
+Type domain.Pronostico is not enhanced.
+
+[2020-10-20 12:44:27 #6 type] 
+Type domain.Equipo is not enhanced.
+
+[2020-10-20 12:44:27 #7 type] 
+Type domain.Apuesta is not enhanced.
+
+[2020-10-20 12:44:27 #8 type] 
+Type domain.User is not enhanced.
+
+[2020-10-20 12:44:27 #9 type] 
+Type domain.Ajustes is not enhanced.
+
+[2020-10-20 12:44:27 #10 type] 
+Type domain.Notification is not enhanced.
+
+[2020-10-20 12:44:27 #11 type] 
+Type domain.Publication is not enhanced.
+
+[2020-10-20 12:44:27 #12 type] 
+Type domain.Copia is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-10-20 12:49:14 #1 store] 
+Database 'C:\Users\USER\git\IS2\BestMain\resources\bets.temp' is opened by 7484@DESKTOP-1O96UFS
+
+[2020-10-20 12:49:14 #2 type.registry] 
+New type domain.User
+
+[2020-10-20 12:49:14 #3 type] 
+Type domain.User is not enhanced.
+
+[2020-10-20 12:49:14 #4 type.registry] 
+New type domain.Ajustes
+
+[2020-10-20 12:49:14 #5 type.registry] 
+New type domain.Notification
+
+[2020-10-20 12:49:14 #6 type.registry] 
+New type domain.Publication
+
+[2020-10-20 12:49:14 #7 type.registry] 
+New type domain.Apuesta
+
+[2020-10-20 12:49:14 #8 type.registry] 
+New type domain.Copia
+
+[2020-10-20 12:49:14 #9 type] 
+Type domain.Ajustes is not enhanced.
+
+[2020-10-20 12:49:14 #10 type] 
+Type domain.Notification is not enhanced.
+
+[2020-10-20 12:49:14 #11 type] 
+Type domain.Publication is not enhanced.
+
+[2020-10-20 12:49:14 #12 type] 
+Type domain.Apuesta is not enhanced.
+
+[2020-10-20 12:49:14 #13 type.registry] 
+New type domain.Pronostico
+
+[2020-10-20 12:49:14 #14 type] 
+Type domain.Copia is not enhanced.
+
+[2020-10-20 12:49:14 #15 type] 
+Type domain.Pronostico is not enhanced.
+
+[2020-10-20 12:49:14 #16 type.registry] 
+New type domain.Question
+
+[2020-10-20 12:49:14 #17 type] 
+Type domain.Question is not enhanced.
+
+[2020-10-20 12:49:14 #18 type.registry] 
+New type domain.Event
+
+[2020-10-20 12:49:14 #19 type] 
+Type domain.Event is not enhanced.
+
+[2020-10-20 12:49:14 #20 type.registry] 
+New type domain.Equipo
+
+[2020-10-20 12:49:14 #21 type] 
+Type domain.Equipo is not enhanced.
+
+[2020-10-20 12:49:14 #22 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2020-10-20 12:49:14 #23 type.registry] 
+New type java.util.ArrayList<domain.Apuesta>
+
+[2020-10-20 12:49:14 #24 type.registry] 
+New type java.util.ArrayList<domain.Question>
+
+[2020-10-20 12:49:14 #25 type.registry] 
+New type java.util.ArrayList<domain.Pronostico>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-10-20 12:49:34 #1 store] 
+Database 'C:\Users\USER\git\IS2\BestMain\resources\bets.temp' is opened by 12284@DESKTOP-1O96UFS
+
+[2020-10-20 12:49:35 #2 type.registry] 
+New type domain.User
+
+[2020-10-20 12:49:35 #3 type] 
+Type domain.User is not enhanced.
+
+[2020-10-20 12:49:35 #4 type.registry] 
+New type domain.Ajustes
+
+[2020-10-20 12:49:35 #5 type.registry] 
+New type domain.Notification
+
+[2020-10-20 12:49:35 #6 type.registry] 
+New type domain.Publication
+
+[2020-10-20 12:49:35 #7 type.registry] 
+New type domain.Apuesta
+
+[2020-10-20 12:49:35 #8 type.registry] 
+New type domain.Copia
+
+[2020-10-20 12:49:35 #9 type] 
+Type domain.Ajustes is not enhanced.
+
+[2020-10-20 12:49:35 #10 type] 
+Type domain.Notification is not enhanced.
+
+[2020-10-20 12:49:35 #11 type] 
+Type domain.Publication is not enhanced.
+
+[2020-10-20 12:49:35 #12 type] 
+Type domain.Apuesta is not enhanced.
+
+[2020-10-20 12:49:35 #13 type.registry] 
+New type domain.Pronostico
+
+[2020-10-20 12:49:35 #14 type] 
+Type domain.Copia is not enhanced.
+
+[2020-10-20 12:49:35 #15 type] 
+Type domain.Pronostico is not enhanced.
+
+[2020-10-20 12:49:35 #16 type.registry] 
+New type domain.Question
+
+[2020-10-20 12:49:35 #17 type] 
+Type domain.Question is not enhanced.
+
+[2020-10-20 12:49:35 #18 type.registry] 
+New type domain.Event
+
+[2020-10-20 12:49:35 #19 type] 
+Type domain.Event is not enhanced.
+
+[2020-10-20 12:49:35 #20 type.registry] 
+New type domain.Equipo
+
+[2020-10-20 12:49:35 #21 type] 
+Type domain.Equipo is not enhanced.
+
+[2020-10-20 12:49:35 #22 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2020-10-20 12:49:35 #23 type.registry] 
+New type java.util.ArrayList<domain.Apuesta>
+
+[2020-10-20 12:49:35 #24 type.registry] 
+New type java.util.ArrayList<domain.Question>
+
+[2020-10-20 12:49:35 #25 type.registry] 
+New type java.util.ArrayList<domain.Pronostico>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-10-20 12:49:56 #1 store] 
+Database 'C:\Users\USER\git\IS2\BestMain\resources\bets.temp' is opened by 4796@DESKTOP-1O96UFS
+
+[2020-10-20 12:49:56 #2 type.registry] 
+New type domain.User
+
+[2020-10-20 12:49:56 #3 type] 
+Type domain.User is not enhanced.
+
+[2020-10-20 12:49:56 #4 type.registry] 
+New type domain.Ajustes
+
+[2020-10-20 12:49:56 #5 type.registry] 
+New type domain.Notification
+
+[2020-10-20 12:49:56 #6 type.registry] 
+New type domain.Publication
+
+[2020-10-20 12:49:56 #7 type.registry] 
+New type domain.Apuesta
+
+[2020-10-20 12:49:56 #8 type.registry] 
+New type domain.Copia
+
+[2020-10-20 12:49:56 #9 type] 
+Type domain.Ajustes is not enhanced.
+
+[2020-10-20 12:49:56 #10 type] 
+Type domain.Notification is not enhanced.
+
+[2020-10-20 12:49:56 #11 type] 
+Type domain.Publication is not enhanced.
+
+[2020-10-20 12:49:56 #12 type] 
+Type domain.Apuesta is not enhanced.
+
+[2020-10-20 12:49:56 #13 type.registry] 
+New type domain.Pronostico
+
+[2020-10-20 12:49:56 #14 type] 
+Type domain.Copia is not enhanced.
+
+[2020-10-20 12:49:56 #15 type] 
+Type domain.Pronostico is not enhanced.
+
+[2020-10-20 12:49:56 #16 type.registry] 
+New type domain.Question
+
+[2020-10-20 12:49:56 #17 type] 
+Type domain.Question is not enhanced.
+
+[2020-10-20 12:49:56 #18 type.registry] 
+New type domain.Event
+
+[2020-10-20 12:49:56 #19 type] 
+Type domain.Event is not enhanced.
+
+[2020-10-20 12:49:56 #20 type.registry] 
+New type domain.Equipo
+
+[2020-10-20 12:49:56 #21 type] 
+Type domain.Equipo is not enhanced.
+
+[2020-10-20 12:49:56 #22 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2020-10-20 12:49:56 #23 type.registry] 
+New type java.util.ArrayList<domain.Apuesta>
+
+[2020-10-20 12:49:56 #24 type.registry] 
+New type java.util.ArrayList<domain.Question>
+
+[2020-10-20 12:49:56 #25 type.registry] 
+New type java.util.ArrayList<domain.Pronostico>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-10-20 12:50:37 #1 store] 
+Database 'C:\Users\USER\git\IS2\BestMain\resources\bets.temp' is opened by 13124@DESKTOP-1O96UFS
+
+[2020-10-20 12:50:37 #2 type.registry] 
+New type domain.User
+
+[2020-10-20 12:50:37 #3 type] 
+Type domain.User is not enhanced.
+
+[2020-10-20 12:50:37 #4 type.registry] 
+New type domain.Ajustes
+
+[2020-10-20 12:50:37 #5 type.registry] 
+New type domain.Notification
+
+[2020-10-20 12:50:37 #6 type.registry] 
+New type domain.Publication
+
+[2020-10-20 12:50:37 #7 type.registry] 
+New type domain.Apuesta
+
+[2020-10-20 12:50:37 #8 type.registry] 
+New type domain.Copia
+
+[2020-10-20 12:50:37 #9 type] 
+Type domain.Ajustes is not enhanced.
+
+[2020-10-20 12:50:37 #10 type] 
+Type domain.Notification is not enhanced.
+
+[2020-10-20 12:50:37 #11 type] 
+Type domain.Publication is not enhanced.
+
+[2020-10-20 12:50:37 #12 type] 
+Type domain.Apuesta is not enhanced.
+
+[2020-10-20 12:50:37 #13 type.registry] 
+New type domain.Pronostico
+
+[2020-10-20 12:50:37 #14 type] 
+Type domain.Copia is not enhanced.
+
+[2020-10-20 12:50:37 #15 type] 
+Type domain.Pronostico is not enhanced.
+
+[2020-10-20 12:50:37 #16 type.registry] 
+New type domain.Question
+
+[2020-10-20 12:50:37 #17 type] 
+Type domain.Question is not enhanced.
+
+[2020-10-20 12:50:37 #18 type.registry] 
+New type domain.Event
+
+[2020-10-20 12:50:37 #19 type] 
+Type domain.Event is not enhanced.
+
+[2020-10-20 12:50:37 #20 type.registry] 
+New type domain.Equipo
+
+[2020-10-20 12:50:37 #21 type] 
+Type domain.Equipo is not enhanced.
+
+[2020-10-20 12:50:37 #22 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2020-10-20 12:50:37 #23 type.registry] 
+New type java.util.ArrayList<domain.Apuesta>
+
+[2020-10-20 12:50:37 #24 type.registry] 
+New type java.util.ArrayList<domain.Question>
+
+[2020-10-20 12:50:37 #25 type.registry] 
+New type java.util.ArrayList<domain.Pronostico>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-10-20 12:50:48 #1 store] 
+Database 'C:\Users\USER\git\IS2\BestMain\resources\bets.temp' is opened by 3276@DESKTOP-1O96UFS
+
+[2020-10-20 12:50:48 #2 type.registry] 
+New type domain.User
+
+[2020-10-20 12:50:48 #3 type] 
+Type domain.User is not enhanced.
+
+[2020-10-20 12:50:48 #4 type.registry] 
+New type domain.Ajustes
+
+[2020-10-20 12:50:48 #5 type.registry] 
+New type domain.Notification
+
+[2020-10-20 12:50:48 #6 type.registry] 
+New type domain.Publication
+
+[2020-10-20 12:50:48 #7 type.registry] 
+New type domain.Apuesta
+
+[2020-10-20 12:50:48 #8 type.registry] 
+New type domain.Copia
+
+[2020-10-20 12:50:48 #9 type] 
+Type domain.Ajustes is not enhanced.
+
+[2020-10-20 12:50:48 #10 type] 
+Type domain.Notification is not enhanced.
+
+[2020-10-20 12:50:48 #11 type] 
+Type domain.Publication is not enhanced.
+
+[2020-10-20 12:50:48 #12 type] 
+Type domain.Apuesta is not enhanced.
+
+[2020-10-20 12:50:48 #13 type.registry] 
+New type domain.Pronostico
+
+[2020-10-20 12:50:48 #14 type] 
+Type domain.Copia is not enhanced.
+
+[2020-10-20 12:50:48 #15 type] 
+Type domain.Pronostico is not enhanced.
+
+[2020-10-20 12:50:48 #16 type.registry] 
+New type domain.Question
+
+[2020-10-20 12:50:48 #17 type] 
+Type domain.Question is not enhanced.
+
+[2020-10-20 12:50:48 #18 type.registry] 
+New type domain.Event
+
+[2020-10-20 12:50:48 #19 type] 
+Type domain.Event is not enhanced.
+
+[2020-10-20 12:50:48 #20 type.registry] 
+New type domain.Equipo
+
+[2020-10-20 12:50:48 #21 type] 
+Type domain.Equipo is not enhanced.
+
+[2020-10-20 12:50:48 #22 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2020-10-20 12:50:48 #23 type.registry] 
+New type java.util.ArrayList<domain.Apuesta>
+
+[2020-10-20 12:50:48 #24 type.registry] 
+New type java.util.ArrayList<domain.Question>
+
+[2020-10-20 12:50:48 #25 type.registry] 
+New type java.util.ArrayList<domain.Pronostico>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-10-20 13:39:25 #1 store] 
+Database 'C:\Users\USER\git\IS2\BestMain\resources\bets.temp' is opened by 288@DESKTOP-1O96UFS
+
+[2020-10-20 13:39:25 #2 type.registry] 
+New type domain.User
+
+[2020-10-20 13:39:25 #3 type] 
+Type domain.User is not enhanced.
+
+[2020-10-20 13:39:25 #4 type.registry] 
+New type domain.Ajustes
+
+[2020-10-20 13:39:25 #5 type.registry] 
+New type domain.Notification
+
+[2020-10-20 13:39:25 #6 type.registry] 
+New type domain.Publication
+
+[2020-10-20 13:39:25 #7 type.registry] 
+New type domain.Apuesta
+
+[2020-10-20 13:39:25 #8 type.registry] 
+New type domain.Copia
+
+[2020-10-20 13:39:25 #9 type] 
+Type domain.Ajustes is not enhanced.
+
+[2020-10-20 13:39:25 #10 type] 
+Type domain.Notification is not enhanced.
+
+[2020-10-20 13:39:25 #11 type] 
+Type domain.Publication is not enhanced.
+
+[2020-10-20 13:39:25 #12 type] 
+Type domain.Apuesta is not enhanced.
+
+[2020-10-20 13:39:25 #13 type.registry] 
+New type domain.Pronostico
+
+[2020-10-20 13:39:25 #14 type] 
+Type domain.Copia is not enhanced.
+
+[2020-10-20 13:39:25 #15 type] 
+Type domain.Pronostico is not enhanced.
+
+[2020-10-20 13:39:25 #16 type.registry] 
+New type domain.Question
+
+[2020-10-20 13:39:25 #17 type] 
+Type domain.Question is not enhanced.
+
+[2020-10-20 13:39:25 #18 type.registry] 
+New type domain.Event
+
+[2020-10-20 13:39:26 #19 type] 
+Type domain.Event is not enhanced.
+
+[2020-10-20 13:39:26 #20 type.registry] 
+New type domain.Equipo
+
+[2020-10-20 13:39:26 #21 type] 
+Type domain.Equipo is not enhanced.
+
+[2020-10-20 13:39:26 #22 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2020-10-20 13:39:26 #23 type.registry] 
+New type java.util.ArrayList<domain.Apuesta>
+
+[2020-10-20 13:39:26 #24 type.registry] 
+New type java.util.ArrayList<domain.Question>
+
+[2020-10-20 13:39:26 #25 type.registry] 
+New type java.util.ArrayList<domain.Pronostico>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-10-20 13:39:48 #1 store] 
+Database 'C:\Users\USER\git\IS2\BestMain\resources\bets.temp' is opened by 7908@DESKTOP-1O96UFS
+
+[2020-10-20 13:39:48 #2 type.registry] 
+New type domain.User
+
+[2020-10-20 13:39:48 #3 type] 
+Type domain.User is not enhanced.
+
+[2020-10-20 13:39:48 #4 type.registry] 
+New type domain.Ajustes
+
+[2020-10-20 13:39:48 #5 type.registry] 
+New type domain.Notification
+
+[2020-10-20 13:39:48 #6 type.registry] 
+New type domain.Publication
+
+[2020-10-20 13:39:48 #7 type.registry] 
+New type domain.Apuesta
+
+[2020-10-20 13:39:48 #8 type.registry] 
+New type domain.Copia
+
+[2020-10-20 13:39:48 #9 type] 
+Type domain.Ajustes is not enhanced.
+
+[2020-10-20 13:39:48 #10 type] 
+Type domain.Notification is not enhanced.
+
+[2020-10-20 13:39:48 #11 type] 
+Type domain.Publication is not enhanced.
+
+[2020-10-20 13:39:48 #12 type] 
+Type domain.Apuesta is not enhanced.
+
+[2020-10-20 13:39:48 #13 type.registry] 
+New type domain.Pronostico
+
+[2020-10-20 13:39:48 #14 type] 
+Type domain.Copia is not enhanced.
+
+[2020-10-20 13:39:48 #15 type] 
+Type domain.Pronostico is not enhanced.
+
+[2020-10-20 13:39:48 #16 type.registry] 
+New type domain.Question
+
+[2020-10-20 13:39:48 #17 type] 
+Type domain.Question is not enhanced.
+
+[2020-10-20 13:39:48 #18 type.registry] 
+New type domain.Event
+
+[2020-10-20 13:39:48 #19 type] 
+Type domain.Event is not enhanced.
+
+[2020-10-20 13:39:48 #20 type.registry] 
+New type domain.Equipo
+
+[2020-10-20 13:39:48 #21 type] 
+Type domain.Equipo is not enhanced.
+
+[2020-10-20 13:39:48 #22 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2020-10-20 13:39:48 #23 type.registry] 
+New type java.util.ArrayList<domain.Apuesta>
+
+[2020-10-20 13:39:48 #24 type.registry] 
+New type java.util.ArrayList<domain.Question>
+
+[2020-10-20 13:39:48 #25 type.registry] 
+New type java.util.ArrayList<domain.Pronostico>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-10-20 13:41:29 #1 store] 
+Database 'C:\Users\USER\git\IS2\BestMain\resources\bets.temp' is opened by 6768@DESKTOP-1O96UFS
+
+[2020-10-20 13:41:29 #2 type.registry] 
+New type domain.User
+
+[2020-10-20 13:41:29 #3 type] 
+Type domain.User is not enhanced.
+
+[2020-10-20 13:41:29 #4 type.registry] 
+New type domain.Ajustes
+
+[2020-10-20 13:41:29 #5 type.registry] 
+New type domain.Notification
+
+[2020-10-20 13:41:29 #6 type.registry] 
+New type domain.Publication
+
+[2020-10-20 13:41:29 #7 type.registry] 
+New type domain.Apuesta
+
+[2020-10-20 13:41:29 #8 type.registry] 
+New type domain.Copia
+
+[2020-10-20 13:41:29 #9 type] 
+Type domain.Ajustes is not enhanced.
+
+[2020-10-20 13:41:29 #10 type] 
+Type domain.Notification is not enhanced.
+
+[2020-10-20 13:41:29 #11 type] 
+Type domain.Publication is not enhanced.
+
+[2020-10-20 13:41:29 #12 type] 
+Type domain.Apuesta is not enhanced.
+
+[2020-10-20 13:41:29 #13 type.registry] 
+New type domain.Pronostico
+
+[2020-10-20 13:41:29 #14 type] 
+Type domain.Copia is not enhanced.
+
+[2020-10-20 13:41:29 #15 type] 
+Type domain.Pronostico is not enhanced.
+
+[2020-10-20 13:41:29 #16 type.registry] 
+New type domain.Question
+
+[2020-10-20 13:41:29 #17 type] 
+Type domain.Question is not enhanced.
+
+[2020-10-20 13:41:29 #18 type.registry] 
+New type domain.Event
+
+[2020-10-20 13:41:29 #19 type] 
+Type domain.Event is not enhanced.
+
+[2020-10-20 13:41:29 #20 type.registry] 
+New type domain.Equipo
+
+[2020-10-20 13:41:29 #21 type] 
+Type domain.Equipo is not enhanced.
+
+[2020-10-20 13:41:29 #22 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2020-10-20 13:41:29 #23 type.registry] 
+New type java.util.ArrayList<domain.Apuesta>
+
+[2020-10-20 13:41:29 #24 type.registry] 
+New type java.util.ArrayList<domain.Question>
+
+[2020-10-20 13:41:29 #25 type.registry] 
+New type java.util.ArrayList<domain.Pronostico>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-10-20 13:45:05 #1 store] 
+Database 'C:\Users\USER\git\IS2\BestMain\resources\bets.temp' is opened by 13252@DESKTOP-1O96UFS
+
+[2020-10-20 13:45:05 #2 type.registry] 
+New type domain.User
+
+[2020-10-20 13:45:05 #3 type] 
+Type domain.User is not enhanced.
+
+[2020-10-20 13:45:05 #4 type.registry] 
+New type domain.Ajustes
+
+[2020-10-20 13:45:05 #5 type.registry] 
+New type domain.Notification
+
+[2020-10-20 13:45:05 #6 type.registry] 
+New type domain.Publication
+
+[2020-10-20 13:45:05 #7 type.registry] 
+New type domain.Apuesta
+
+[2020-10-20 13:45:05 #8 type.registry] 
+New type domain.Copia
+
+[2020-10-20 13:45:05 #9 type] 
+Type domain.Ajustes is not enhanced.
+
+[2020-10-20 13:45:05 #10 type] 
+Type domain.Notification is not enhanced.
+
+[2020-10-20 13:45:05 #11 type] 
+Type domain.Publication is not enhanced.
+
+[2020-10-20 13:45:05 #12 type] 
+Type domain.Apuesta is not enhanced.
+
+[2020-10-20 13:45:05 #13 type.registry] 
+New type domain.Pronostico
+
+[2020-10-20 13:45:05 #14 type] 
+Type domain.Copia is not enhanced.
+
+[2020-10-20 13:45:05 #15 type] 
+Type domain.Pronostico is not enhanced.
+
+[2020-10-20 13:45:05 #16 type.registry] 
+New type domain.Question
+
+[2020-10-20 13:45:05 #17 type] 
+Type domain.Question is not enhanced.
+
+[2020-10-20 13:45:05 #18 type.registry] 
+New type domain.Event
+
+[2020-10-20 13:45:05 #19 type] 
+Type domain.Event is not enhanced.
+
+[2020-10-20 13:45:05 #20 type.registry] 
+New type domain.Equipo
+
+[2020-10-20 13:45:05 #21 type] 
+Type domain.Equipo is not enhanced.
+
+[2020-10-20 13:45:05 #22 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2020-10-20 13:45:05 #23 type.registry] 
+New type java.util.ArrayList<domain.Apuesta>
+
+[2020-10-20 13:45:05 #24 type.registry] 
+New type java.util.ArrayList<domain.Question>
+
+[2020-10-20 13:45:05 #25 type.registry] 
+New type java.util.ArrayList<domain.Pronostico>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-10-20 13:47:26 #1 store] 
+Database 'C:\Users\USER\git\IS2\BestMain\resources\bets.temp' is opened by 10636@DESKTOP-1O96UFS
+
+[2020-10-20 13:47:26 #2 type.registry] 
+New type domain.User
+
+[2020-10-20 13:47:26 #3 type] 
+Type domain.User is not enhanced.
+
+[2020-10-20 13:47:26 #4 type.registry] 
+New type domain.Ajustes
+
+[2020-10-20 13:47:26 #5 type.registry] 
+New type domain.Notification
+
+[2020-10-20 13:47:26 #6 type.registry] 
+New type domain.Publication
+
+[2020-10-20 13:47:26 #7 type.registry] 
+New type domain.Apuesta
+
+[2020-10-20 13:47:26 #8 type.registry] 
+New type domain.Copia
+
+[2020-10-20 13:47:26 #9 type] 
+Type domain.Ajustes is not enhanced.
+
+[2020-10-20 13:47:26 #10 type] 
+Type domain.Notification is not enhanced.
+
+[2020-10-20 13:47:26 #11 type] 
+Type domain.Publication is not enhanced.
+
+[2020-10-20 13:47:26 #12 type] 
+Type domain.Apuesta is not enhanced.
+
+[2020-10-20 13:47:26 #13 type.registry] 
+New type domain.Pronostico
+
+[2020-10-20 13:47:26 #14 type] 
+Type domain.Copia is not enhanced.
+
+[2020-10-20 13:47:26 #15 type] 
+Type domain.Pronostico is not enhanced.
+
+[2020-10-20 13:47:26 #16 type.registry] 
+New type domain.Question
+
+[2020-10-20 13:47:26 #17 type] 
+Type domain.Question is not enhanced.
+
+[2020-10-20 13:47:26 #18 type.registry] 
+New type domain.Event
+
+[2020-10-20 13:47:26 #19 type] 
+Type domain.Event is not enhanced.
+
+[2020-10-20 13:47:26 #20 type.registry] 
+New type domain.Equipo
+
+[2020-10-20 13:47:26 #21 type] 
+Type domain.Equipo is not enhanced.
+
+[2020-10-20 13:47:26 #22 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2020-10-20 13:47:26 #23 type.registry] 
+New type java.util.ArrayList<domain.Apuesta>
+
+[2020-10-20 13:47:26 #24 type.registry] 
+New type java.util.ArrayList<domain.Question>
+
+[2020-10-20 13:47:26 #25 type.registry] 
+New type java.util.ArrayList<domain.Pronostico>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-10-20 13:47:52 #1 store] 
+Database 'C:\Users\USER\git\IS2\BestMain\resources\bets.temp' is opened by 8880@DESKTOP-1O96UFS
+
+[2020-10-20 13:47:52 #2 type.registry] 
+New type domain.User
+
+[2020-10-20 13:47:52 #3 type] 
+Type domain.User is not enhanced.
+
+[2020-10-20 13:47:52 #4 type.registry] 
+New type domain.Ajustes
+
+[2020-10-20 13:47:52 #5 type.registry] 
+New type domain.Notification
+
+[2020-10-20 13:47:52 #6 type.registry] 
+New type domain.Publication
+
+[2020-10-20 13:47:52 #7 type.registry] 
+New type domain.Apuesta
+
+[2020-10-20 13:47:52 #8 type.registry] 
+New type domain.Copia
+
+[2020-10-20 13:47:52 #9 type] 
+Type domain.Ajustes is not enhanced.
+
+[2020-10-20 13:47:52 #10 type] 
+Type domain.Notification is not enhanced.
+
+[2020-10-20 13:47:52 #11 type] 
+Type domain.Publication is not enhanced.
+
+[2020-10-20 13:47:52 #12 type] 
+Type domain.Apuesta is not enhanced.
+
+[2020-10-20 13:47:52 #13 type.registry] 
+New type domain.Pronostico
+
+[2020-10-20 13:47:52 #14 type] 
+Type domain.Copia is not enhanced.
+
+[2020-10-20 13:47:52 #15 type] 
+Type domain.Pronostico is not enhanced.
+
+[2020-10-20 13:47:52 #16 type.registry] 
+New type domain.Question
+
+[2020-10-20 13:47:52 #17 type] 
+Type domain.Question is not enhanced.
+
+[2020-10-20 13:47:52 #18 type.registry] 
+New type domain.Event
+
+[2020-10-20 13:47:52 #19 type] 
+Type domain.Event is not enhanced.
+
+[2020-10-20 13:47:52 #20 type.registry] 
+New type domain.Equipo
+
+[2020-10-20 13:47:52 #21 type] 
+Type domain.Equipo is not enhanced.
+
+[2020-10-20 13:47:52 #22 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2020-10-20 13:47:52 #23 type.registry] 
+New type java.util.ArrayList<domain.Apuesta>
+
+[2020-10-20 13:47:52 #24 type.registry] 
+New type java.util.ArrayList<domain.Question>
+
+[2020-10-20 13:47:52 #25 type.registry] 
+New type java.util.ArrayList<domain.Pronostico>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-10-20 13:49:05 #1 store] 
+Database 'C:\Users\USER\git\IS2\BestMain\resources\bets.temp' is opened by 11308@DESKTOP-1O96UFS
+
+[2020-10-20 13:49:06 #2 type.registry] 
+New type domain.User
+
+[2020-10-20 13:49:06 #3 type] 
+Type domain.User is not enhanced.
+
+[2020-10-20 13:49:06 #4 type.registry] 
+New type domain.Ajustes
+
+[2020-10-20 13:49:06 #5 type.registry] 
+New type domain.Notification
+
+[2020-10-20 13:49:06 #6 type.registry] 
+New type domain.Publication
+
+[2020-10-20 13:49:06 #7 type.registry] 
+New type domain.Apuesta
+
+[2020-10-20 13:49:06 #8 type.registry] 
+New type domain.Copia
+
+[2020-10-20 13:49:06 #9 type] 
+Type domain.Ajustes is not enhanced.
+
+[2020-10-20 13:49:06 #10 type] 
+Type domain.Notification is not enhanced.
+
+[2020-10-20 13:49:06 #11 type] 
+Type domain.Publication is not enhanced.
+
+[2020-10-20 13:49:06 #12 type] 
+Type domain.Apuesta is not enhanced.
+
+[2020-10-20 13:49:06 #13 type.registry] 
+New type domain.Pronostico
+
+[2020-10-20 13:49:06 #14 type] 
+Type domain.Copia is not enhanced.
+
+[2020-10-20 13:49:06 #15 type] 
+Type domain.Pronostico is not enhanced.
+
+[2020-10-20 13:49:06 #16 type.registry] 
+New type domain.Question
+
+[2020-10-20 13:49:06 #17 type] 
+Type domain.Question is not enhanced.
+
+[2020-10-20 13:49:06 #18 type.registry] 
+New type domain.Event
+
+[2020-10-20 13:49:06 #19 type] 
+Type domain.Event is not enhanced.
+
+[2020-10-20 13:49:06 #20 type.registry] 
+New type domain.Equipo
+
+[2020-10-20 13:49:06 #21 type] 
+Type domain.Equipo is not enhanced.
+
+[2020-10-20 13:49:06 #22 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2020-10-20 13:49:06 #23 type.registry] 
+New type java.util.ArrayList<domain.Apuesta>
+
+[2020-10-20 13:49:06 #24 type.registry] 
+New type java.util.ArrayList<domain.Question>
+
+[2020-10-20 13:49:06 #25 type.registry] 
+New type java.util.ArrayList<domain.Pronostico>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-10-20 13:54:44 #1 store] 
+Database 'C:\Users\USER\git\IS2\BestMain\resources\bets.temp' is opened by 9148@DESKTOP-1O96UFS
+
+[2020-10-20 13:54:45 #2 type.registry] 
+New type domain.User
+
+[2020-10-20 13:54:45 #3 type] 
+Type domain.User is not enhanced.
+
+[2020-10-20 13:54:45 #4 type.registry] 
+New type domain.Ajustes
+
+[2020-10-20 13:54:45 #5 type.registry] 
+New type domain.Notification
+
+[2020-10-20 13:54:45 #6 type.registry] 
+New type domain.Publication
+
+[2020-10-20 13:54:45 #7 type.registry] 
+New type domain.Apuesta
+
+[2020-10-20 13:54:45 #8 type.registry] 
+New type domain.Copia
+
+[2020-10-20 13:54:45 #9 type] 
+Type domain.Ajustes is not enhanced.
+
+[2020-10-20 13:54:45 #10 type] 
+Type domain.Notification is not enhanced.
+
+[2020-10-20 13:54:45 #11 type] 
+Type domain.Publication is not enhanced.
+
+[2020-10-20 13:54:45 #12 type] 
+Type domain.Apuesta is not enhanced.
+
+[2020-10-20 13:54:45 #13 type.registry] 
+New type domain.Pronostico
+
+[2020-10-20 13:54:45 #14 type] 
+Type domain.Copia is not enhanced.
+
+[2020-10-20 13:54:45 #15 type] 
+Type domain.Pronostico is not enhanced.
+
+[2020-10-20 13:54:45 #16 type.registry] 
+New type domain.Question
+
+[2020-10-20 13:54:45 #17 type] 
+Type domain.Question is not enhanced.
+
+[2020-10-20 13:54:45 #18 type.registry] 
+New type domain.Event
+
+[2020-10-20 13:54:45 #19 type] 
+Type domain.Event is not enhanced.
+
+[2020-10-20 13:54:45 #20 type.registry] 
+New type domain.Equipo
+
+[2020-10-20 13:54:45 #21 type] 
+Type domain.Equipo is not enhanced.
+
+[2020-10-20 13:54:45 #22 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2020-10-20 13:54:45 #23 type.registry] 
+New type java.util.ArrayList<domain.Apuesta>
+
+[2020-10-20 13:54:45 #24 type.registry] 
+New type java.util.ArrayList<domain.Question>
+
+[2020-10-20 13:54:45 #25 type.registry] 
+New type java.util.ArrayList<domain.Pronostico>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-10-20 13:57:40 #1 store] 
+Database 'C:\Users\USER\git\IS2\BestMain\resources\bets.temp' is opened by 8628@DESKTOP-1O96UFS
+
+[2020-10-20 13:57:40 #2 type.registry] 
+New type domain.User
+
+[2020-10-20 13:57:40 #3 type] 
+Type domain.User is not enhanced.
+
+[2020-10-20 13:57:40 #4 type.registry] 
+New type domain.Ajustes
+
+[2020-10-20 13:57:40 #5 type.registry] 
+New type domain.Notification
+
+[2020-10-20 13:57:40 #6 type.registry] 
+New type domain.Publication
+
+[2020-10-20 13:57:40 #7 type.registry] 
+New type domain.Apuesta
+
+[2020-10-20 13:57:40 #8 type.registry] 
+New type domain.Copia
+
+[2020-10-20 13:57:40 #9 type] 
+Type domain.Ajustes is not enhanced.
+
+[2020-10-20 13:57:40 #10 type] 
+Type domain.Notification is not enhanced.
+
+[2020-10-20 13:57:40 #11 type] 
+Type domain.Publication is not enhanced.
+
+[2020-10-20 13:57:40 #12 type] 
+Type domain.Apuesta is not enhanced.
+
+[2020-10-20 13:57:40 #13 type.registry] 
+New type domain.Pronostico
+
+[2020-10-20 13:57:40 #14 type] 
+Type domain.Copia is not enhanced.
+
+[2020-10-20 13:57:40 #15 type] 
+Type domain.Pronostico is not enhanced.
+
+[2020-10-20 13:57:40 #16 type.registry] 
+New type domain.Question
+
+[2020-10-20 13:57:40 #17 type] 
+Type domain.Question is not enhanced.
+
+[2020-10-20 13:57:40 #18 type.registry] 
+New type domain.Event
+
+[2020-10-20 13:57:40 #19 type] 
+Type domain.Event is not enhanced.
+
+[2020-10-20 13:57:40 #20 type.registry] 
+New type domain.Equipo
+
+[2020-10-20 13:57:40 #21 type] 
+Type domain.Equipo is not enhanced.
+
+[2020-10-20 13:57:40 #22 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2020-10-20 13:57:40 #23 type.registry] 
+New type java.util.ArrayList<domain.Apuesta>
+
+[2020-10-20 13:57:40 #24 type.registry] 
+New type java.util.ArrayList<domain.Question>
+
+[2020-10-20 13:57:40 #25 type.registry] 
+New type java.util.ArrayList<domain.Pronostico>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-10-20 14:01:44 #1 store] 
+Database 'C:\Users\USER\git\IS2\BestMain\resources\bets.temp' is opened by 8824@DESKTOP-1O96UFS
+
+[2020-10-20 14:01:44 #2 type.registry] 
+New type domain.User
+
+[2020-10-20 14:01:44 #3 type] 
+Type domain.User is not enhanced.
+
+[2020-10-20 14:01:44 #4 type.registry] 
+New type domain.Ajustes
+
+[2020-10-20 14:01:44 #5 type.registry] 
+New type domain.Notification
+
+[2020-10-20 14:01:44 #6 type.registry] 
+New type domain.Publication
+
+[2020-10-20 14:01:44 #7 type.registry] 
+New type domain.Apuesta
+
+[2020-10-20 14:01:44 #8 type.registry] 
+New type domain.Copia
+
+[2020-10-20 14:01:44 #9 type] 
+Type domain.Ajustes is not enhanced.
+
+[2020-10-20 14:01:44 #10 type] 
+Type domain.Notification is not enhanced.
+
+[2020-10-20 14:01:44 #11 type] 
+Type domain.Publication is not enhanced.
+
+[2020-10-20 14:01:44 #12 type] 
+Type domain.Apuesta is not enhanced.
+
+[2020-10-20 14:01:44 #13 type.registry] 
+New type domain.Pronostico
+
+[2020-10-20 14:01:44 #14 type] 
+Type domain.Copia is not enhanced.
+
+[2020-10-20 14:01:44 #15 type] 
+Type domain.Pronostico is not enhanced.
+
+[2020-10-20 14:01:44 #16 type.registry] 
+New type domain.Question
+
+[2020-10-20 14:01:44 #17 type] 
+Type domain.Question is not enhanced.
+
+[2020-10-20 14:01:44 #18 type.registry] 
+New type domain.Event
+
+[2020-10-20 14:01:44 #19 type] 
+Type domain.Event is not enhanced.
+
+[2020-10-20 14:01:44 #20 type.registry] 
+New type domain.Equipo
+
+[2020-10-20 14:01:44 #21 type] 
+Type domain.Equipo is not enhanced.
+
+[2020-10-20 14:01:44 #22 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2020-10-20 14:01:44 #23 type.registry] 
+New type java.util.ArrayList<domain.Apuesta>
+
+[2020-10-20 14:01:44 #24 type.registry] 
+New type java.util.ArrayList<domain.Question>
+
+[2020-10-20 14:01:44 #25 type.registry] 
+New type java.util.ArrayList<domain.Pronostico>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-10-20 14:02:23 #1 store] 
+Database 'C:\Users\USER\git\IS2\BestMain\resources\bets.temp' is opened by 7008@DESKTOP-1O96UFS
+
+[2020-10-20 14:02:23 #2 type.registry] 
+New type domain.User
+
+[2020-10-20 14:02:23 #3 type] 
+Type domain.User is not enhanced.
+
+[2020-10-20 14:02:23 #4 type.registry] 
+New type domain.Ajustes
+
+[2020-10-20 14:02:23 #5 type.registry] 
+New type domain.Notification
+
+[2020-10-20 14:02:23 #6 type.registry] 
+New type domain.Publication
+
+[2020-10-20 14:02:23 #7 type.registry] 
+New type domain.Apuesta
+
+[2020-10-20 14:02:23 #8 type.registry] 
+New type domain.Copia
+
+[2020-10-20 14:02:23 #9 type] 
+Type domain.Ajustes is not enhanced.
+
+[2020-10-20 14:02:23 #10 type] 
+Type domain.Notification is not enhanced.
+
+[2020-10-20 14:02:23 #11 type] 
+Type domain.Publication is not enhanced.
+
+[2020-10-20 14:02:23 #12 type] 
+Type domain.Apuesta is not enhanced.
+
+[2020-10-20 14:02:23 #13 type.registry] 
+New type domain.Pronostico
+
+[2020-10-20 14:02:23 #14 type] 
+Type domain.Copia is not enhanced.
+
+[2020-10-20 14:02:23 #15 type] 
+Type domain.Pronostico is not enhanced.
+
+[2020-10-20 14:02:23 #16 type.registry] 
+New type domain.Question
+
+[2020-10-20 14:02:23 #17 type] 
+Type domain.Question is not enhanced.
+
+[2020-10-20 14:02:23 #18 type.registry] 
+New type domain.Event
+
+[2020-10-20 14:02:23 #19 type] 
+Type domain.Event is not enhanced.
+
+[2020-10-20 14:02:23 #20 type.registry] 
+New type domain.Equipo
+
+[2020-10-20 14:02:23 #21 type] 
+Type domain.Equipo is not enhanced.
+
+[2020-10-20 14:02:23 #22 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2020-10-20 14:02:23 #23 type.registry] 
+New type java.util.ArrayList<domain.Apuesta>
+
+[2020-10-20 14:02:23 #24 type.registry] 
+New type java.util.ArrayList<domain.Question>
+
+[2020-10-20 14:02:23 #25 type.registry] 
+New type java.util.ArrayList<domain.Pronostico>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-10-20 14:03:06 #1 store] 
+Database 'C:\Users\USER\git\IS2\BestMain\resources\bets.temp' is opened by 10344@DESKTOP-1O96UFS
+
+[2020-10-20 14:03:06 #2 type.registry] 
+New type domain.User
+
+[2020-10-20 14:03:06 #3 type] 
+Type domain.User is not enhanced.
+
+[2020-10-20 14:03:06 #4 type.registry] 
+New type domain.Ajustes
+
+[2020-10-20 14:03:06 #5 type.registry] 
+New type domain.Notification
+
+[2020-10-20 14:03:06 #6 type.registry] 
+New type domain.Publication
+
+[2020-10-20 14:03:06 #7 type.registry] 
+New type domain.Apuesta
+
+[2020-10-20 14:03:06 #8 type.registry] 
+New type domain.Copia
+
+[2020-10-20 14:03:06 #9 type] 
+Type domain.Ajustes is not enhanced.
+
+[2020-10-20 14:03:06 #10 type] 
+Type domain.Notification is not enhanced.
+
+[2020-10-20 14:03:06 #11 type] 
+Type domain.Publication is not enhanced.
+
+[2020-10-20 14:03:06 #12 type] 
+Type domain.Apuesta is not enhanced.
+
+[2020-10-20 14:03:06 #13 type.registry] 
+New type domain.Pronostico
+
+[2020-10-20 14:03:06 #14 type] 
+Type domain.Copia is not enhanced.
+
+[2020-10-20 14:03:06 #15 type] 
+Type domain.Pronostico is not enhanced.
+
+[2020-10-20 14:03:06 #16 type.registry] 
+New type domain.Question
+
+[2020-10-20 14:03:06 #17 type] 
+Type domain.Question is not enhanced.
+
+[2020-10-20 14:03:06 #18 type.registry] 
+New type domain.Event
+
+[2020-10-20 14:03:06 #19 type] 
+Type domain.Event is not enhanced.
+
+[2020-10-20 14:03:06 #20 type.registry] 
+New type domain.Equipo
+
+[2020-10-20 14:03:06 #21 type] 
+Type domain.Equipo is not enhanced.
+
+[2020-10-20 14:03:06 #22 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2020-10-20 14:03:06 #23 type.registry] 
+New type java.util.ArrayList<domain.Apuesta>
+
+[2020-10-20 14:03:06 #24 type.registry] 
+New type java.util.ArrayList<domain.Question>
+
+[2020-10-20 14:03:06 #25 type.registry] 
+New type java.util.ArrayList<domain.Pronostico>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-10-20 14:04:53 #1 store] 
+Database 'C:\Users\USER\git\IS2\BestMain\resources\bets.temp' is opened by 12832@DESKTOP-1O96UFS
+
+[2020-10-20 14:04:53 #2 type.registry] 
+New type domain.User
+
+[2020-10-20 14:04:53 #3 type] 
+Type domain.User is not enhanced.
+
+[2020-10-20 14:04:53 #4 type.registry] 
+New type domain.Ajustes
+
+[2020-10-20 14:04:53 #5 type.registry] 
+New type domain.Notification
+
+[2020-10-20 14:04:53 #6 type.registry] 
+New type domain.Publication
+
+[2020-10-20 14:04:53 #7 type.registry] 
+New type domain.Apuesta
+
+[2020-10-20 14:04:53 #8 type.registry] 
+New type domain.Copia
+
+[2020-10-20 14:04:53 #9 type] 
+Type domain.Ajustes is not enhanced.
+
+[2020-10-20 14:04:53 #10 type] 
+Type domain.Notification is not enhanced.
+
+[2020-10-20 14:04:53 #11 type] 
+Type domain.Publication is not enhanced.
+
+[2020-10-20 14:04:53 #12 type] 
+Type domain.Apuesta is not enhanced.
+
+[2020-10-20 14:04:53 #13 type.registry] 
+New type domain.Pronostico
+
+[2020-10-20 14:04:53 #14 type] 
+Type domain.Copia is not enhanced.
+
+[2020-10-20 14:04:53 #15 type] 
+Type domain.Pronostico is not enhanced.
+
+[2020-10-20 14:04:53 #16 type.registry] 
+New type domain.Question
+
+[2020-10-20 14:04:53 #17 type] 
+Type domain.Question is not enhanced.
+
+[2020-10-20 14:04:53 #18 type.registry] 
+New type domain.Event
+
+[2020-10-20 14:04:53 #19 type] 
+Type domain.Event is not enhanced.
+
+[2020-10-20 14:04:53 #20 type.registry] 
+New type domain.Equipo
+
+[2020-10-20 14:04:53 #21 type] 
+Type domain.Equipo is not enhanced.
+
+[2020-10-20 14:04:53 #22 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2020-10-20 14:04:53 #23 type.registry] 
+New type java.util.ArrayList<domain.Apuesta>
+
+[2020-10-20 14:04:53 #24 type.registry] 
+New type java.util.ArrayList<domain.Question>
+
+[2020-10-20 14:04:53 #25 type.registry] 
+New type java.util.ArrayList<domain.Pronostico>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-10-20 14:08:00 #1 store] 
+Database 'C:\Users\USER\git\IS2\BestMain\resources\bets.temp' is opened by 12512@DESKTOP-1O96UFS
+
+[2020-10-20 14:08:00 #2 type.registry] 
+New type domain.User
+
+[2020-10-20 14:08:00 #3 type] 
+Type domain.User is not enhanced.
+
+[2020-10-20 14:08:00 #4 type.registry] 
+New type domain.Ajustes
+
+[2020-10-20 14:08:00 #5 type.registry] 
+New type domain.Notification
+
+[2020-10-20 14:08:00 #6 type.registry] 
+New type domain.Publication
+
+[2020-10-20 14:08:00 #7 type.registry] 
+New type domain.Apuesta
+
+[2020-10-20 14:08:00 #8 type.registry] 
+New type domain.Copia
+
+[2020-10-20 14:08:00 #9 type] 
+Type domain.Ajustes is not enhanced.
+
+[2020-10-20 14:08:00 #10 type] 
+Type domain.Notification is not enhanced.
+
+[2020-10-20 14:08:00 #11 type] 
+Type domain.Publication is not enhanced.
+
+[2020-10-20 14:08:00 #12 type] 
+Type domain.Apuesta is not enhanced.
+
+[2020-10-20 14:08:00 #13 type.registry] 
+New type domain.Pronostico
+
+[2020-10-20 14:08:00 #14 type] 
+Type domain.Copia is not enhanced.
+
+[2020-10-20 14:08:00 #15 type] 
+Type domain.Pronostico is not enhanced.
+
+[2020-10-20 14:08:00 #16 type.registry] 
+New type domain.Question
+
+[2020-10-20 14:08:00 #17 type] 
+Type domain.Question is not enhanced.
+
+[2020-10-20 14:08:00 #18 type.registry] 
+New type domain.Event
+
+[2020-10-20 14:08:00 #19 type] 
+Type domain.Event is not enhanced.
+
+[2020-10-20 14:08:00 #20 type.registry] 
+New type domain.Equipo
+
+[2020-10-20 14:08:00 #21 type] 
+Type domain.Equipo is not enhanced.
+
+[2020-10-20 14:08:00 #22 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2020-10-20 14:08:00 #23 type.registry] 
+New type java.util.ArrayList<domain.Apuesta>
+
+[2020-10-20 14:08:00 #24 type.registry] 
+New type java.util.ArrayList<domain.Question>
+
+[2020-10-20 14:08:00 #25 type.registry] 
+New type java.util.ArrayList<domain.Pronostico>
+
